@@ -1,0 +1,7 @@
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\bin\Debug\Code 1.exe.config
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\bin\Debug\Code 1.exe
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\bin\Debug\Code 1.pdb
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\obj\Debug\Code 1.csproj.AssemblyReference.cache
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\obj\Debug\Code 1.csproj.CoreCompileInputs.cache
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\obj\Debug\Code 1.exe
+C:\Dot_Net Training\Assessments\Codechallenge01\Code 1\Code 1\Code 1\obj\Debug\Code 1.pdb
