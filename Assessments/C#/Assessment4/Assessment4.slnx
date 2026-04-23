@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Assessment4/Assessment4.csproj" Id="4eaae7b0-27ca-43e4-b9a8-61514c4b837f" />
+  <Project Path="ClassLibrary1/ClassLibrary1.csproj" Id="f132bd8e-0adf-434d-8ba2-7931e3d4f254" />
+  <Project Path="UnitTestProject1/UnitTestProject1.csproj" Id="c39c8cb4-7ac3-49c5-ba71-6a617c844dbe" />
+</Solution>

@@ -1,9 +1,9 @@
 ﻿using System;
-using TravelConcessionLibrary;
+using TravelConcession;
 
 namespace Assignment7
 {
-    class Program
+    class Program5
     {
         const double BaseFare = 500;
 

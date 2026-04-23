@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TravelConcession": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

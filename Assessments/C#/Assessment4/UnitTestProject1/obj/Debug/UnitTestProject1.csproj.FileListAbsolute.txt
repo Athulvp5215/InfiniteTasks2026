@@ -1,0 +1,2 @@
+C:\Dot_Net Training\Assessments\C#\Assessment4\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
+C:\Dot_Net Training\Assessments\C#\Assessment4\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
