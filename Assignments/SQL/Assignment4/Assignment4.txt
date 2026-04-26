@@ -1,0 +1,102 @@
+-- ASSIGNMENT 4
+-- T-SQL Programs
+
+CREATE DATABASE Assignment4;
+
+
+USE Assignment4;
+
+
+-- 1. Program to find the factorial of a given number
+DECLARE @num  INT = 5;
+DECLARE @fact BIGINT = 1;
+DECLARE @i    INT = 1;
+
+WHILE @i <= @num
+BEGIN
+    SET @fact = @fact * @i;
+    SET @i = @i + 1;
+END;
+
+PRINT 'Factorial of ' + CAST(@num AS VARCHAR) +
+      ' is ' + CAST(@fact AS VARCHAR);
+
+GO
+
+-- 2. Stored procedure to generate multiplication table
+CREATE PROCEDURE sp_multiplicationtable
+    @num   INT,
+    @limit INT
+AS
+BEGIN
+    DECLARE @i INT = 1;
+
+    WHILE @i <= @limit
+    BEGIN
+        PRINT CAST(@num AS VARCHAR(10)) + ' x ' +
+              CAST(@i AS VARCHAR(10)) + ' = ' +
+              CAST(@num * @i AS VARCHAR(10));
+        SET @i = @i + 1;
+    END
+END;
+
+
+EXEC sp_multiplicationtable 5, 10;
+
+
+
+-- 3. Function to calculate student status (Pass / Fail)
+
+CREATE TABLE student
+(
+    sid   INT PRIMARY KEY,
+    sname VARCHAR(20)
+);
+
+CREATE TABLE marks
+(
+    mid   INT PRIMARY KEY,
+    sid   INT,
+    score INT
+);
+
+INSERT INTO student VALUES
+(1, 'jack'),
+(2, 'rithvik'),
+(3, 'jaspreeth'),
+(4, 'praveen'),
+(5, 'bisa'),
+(6, 'suraj');
+
+INSERT INTO marks VALUES
+(1, 1, 23),
+(2, 6, 95),
+(3, 4, 98),
+(4, 2, 17),
+(5, 3, 53),
+(6, 5, 13);
+
+GO
+
+CREATE FUNCTION fn_studentstatus (@score INT)
+RETURNS VARCHAR(10)
+AS
+BEGIN
+    DECLARE @status VARCHAR(10);
+
+    IF @score >= 50
+        SET @status = 'PASS';
+    ELSE
+        SET @status = 'FAIL';
+
+    RETURN @status;
+END;
+
+
+SELECT s.sid,
+       s.sname,
+       m.score,
+       dbo.fn_studentstatus(m.score) AS status
+FROM student s
+JOIN marks m
+ON s.sid = m.sid;

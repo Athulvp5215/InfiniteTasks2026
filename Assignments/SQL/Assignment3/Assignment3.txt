@@ -1,0 +1,98 @@
+-- ASSIGNMENT 3
+-- Using Assignment 2 tables (EMP, DEPT)
+use Assignment2
+
+-- 1. Retrieve a list of MANAGERS
+SELECT *
+FROM emp
+WHERE job = 'MANAGER';
+
+-- 2. Names and salaries of employees earning more than 1000 per month
+SELECT ename, sal
+FROM emp
+WHERE sal > 1000;
+
+-- 3. Names and salaries of all employees except JAMES
+SELECT ename, sal
+FROM emp
+WHERE ename <> 'JAMES';
+
+-- 4. Details of employees whose names begin with ‘S’
+SELECT *
+FROM emp
+WHERE ename LIKE 'S%';
+
+-- 5. Names of employees having ‘A’ anywhere in their name
+SELECT ename
+FROM emp
+WHERE ename LIKE '%A%';
+
+-- 6. Names of employees having ‘L’ as their third character
+SELECT ename
+FROM emp
+WHERE ename LIKE '__L%';
+
+-- 7. Compute daily salary of JONES
+SELECT ename, sal / 30 AS daily_salary
+FROM emp
+WHERE ename = 'JONES';
+
+-- 8. Total monthly salary of all employees
+SELECT SUM(sal) AS total_monthly_salary
+FROM emp;
+
+-- 9. Average annual salary of employees
+SELECT AVG(sal * 12) AS average_annual_salary
+FROM emp;
+
+-- 10. Employees except SALESMAN from department 30
+SELECT ename, job, sal, deptno
+FROM emp
+WHERE job <> 'SALESMAN'
+  AND deptno = 30;
+
+-- 11. Unique departments from EMP table
+SELECT DISTINCT deptno
+FROM emp;
+
+-- 12. Employees earning more than 1500 in department 10 or 30
+SELECT ename AS employee,
+       sal   AS monthly_salary
+FROM emp
+WHERE sal > 1500
+  AND deptno IN (10, 30);
+
+-- 13. MANAGER or ANALYST with salary not equal to 1000, 3000, or 5000
+SELECT ename, job, sal
+FROM emp
+WHERE job IN ('MANAGER', 'ANALYST')
+  AND sal NOT IN (1000, 3000, 5000);
+
+-- 14. Employees whose commission is greater than salary + 10%
+SELECT ename, sal, [comm]
+FROM emp
+WHERE [comm] > sal * 1.10;
+
+-- 15. Employees with two ‘L’s in name and (department 30 or manager is 7782)
+SELECT ename
+FROM emp
+WHERE ename LIKE '%LL%'
+  AND (deptno = 30 OR [mgr-id] = 7782);
+
+-- 16. Count employees with experience between 31 and 39 years
+SELECT COUNT(*) AS total_employees
+FROM emp
+WHERE DATEDIFF(YEAR, hiredate, GETDATE()) BETWEEN 31 AND 39;
+
+-- 17. Department names in ascending order and employee names in descending order
+SELECT d.dname, e.ename
+FROM dept d
+JOIN emp e
+  ON d.deptno = e.deptno
+ORDER BY d.dname ASC, e.ename DESC;
+
+-- 18. Experience of MILLER
+SELECT ename,
+       DATEDIFF(YEAR, hiredate, GETDATE()) AS experience_years
+FROM emp
+WHERE ename = 'MILLER';
