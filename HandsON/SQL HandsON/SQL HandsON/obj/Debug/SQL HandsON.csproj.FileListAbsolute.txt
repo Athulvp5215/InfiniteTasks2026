@@ -1,0 +1,7 @@
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\bin\Debug\SQL HandsON.exe.config
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\bin\Debug\SQL HandsON.exe
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\bin\Debug\SQL HandsON.pdb
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\obj\Debug\SQL HandsON.csproj.AssemblyReference.cache
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\obj\Debug\SQL HandsON.csproj.CoreCompileInputs.cache
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\obj\Debug\SQL HandsON.exe
+C:\Dot_Net Training\HandsON\SQL HandsON\SQL HandsON\obj\Debug\SQL HandsON.pdb
