@@ -1,0 +1,7 @@
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\bin\Debug\Assessment5.exe.config
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\bin\Debug\Assessment5.exe
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\bin\Debug\Assessment5.pdb
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\obj\Debug\Assessment5.csproj.AssemblyReference.cache
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\obj\Debug\Assessment5.csproj.CoreCompileInputs.cache
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\obj\Debug\Assessment5.exe
+C:\Dot_Net Training\Assessments\C#\Assessment5\Assessment5\obj\Debug\Assessment5.pdb
