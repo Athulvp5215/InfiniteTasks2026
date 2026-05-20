@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+    <title>h1 inside div</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $("div > h1").css("background-color", "yellow");
+    });
+    </script>
+
+</head>
+<body>
+
+    <div>
+        <h1>Heading 1</h1>
+    </div>
+
+    <div>
+        <h1>Heading 2</h1>
+    </div>
+
+    <h1>Outside Div</h1>
+
+</body>
+</html>

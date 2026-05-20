@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\webtech\\assessment1\\assessment1\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\webtech\\assessment1\\assessment1\\stylesheet1.less||{28C69EDA-EDF9-4CA8-9EBE-443348B6D916}",
+      "RelativeMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\stylesheet1.less||{28C69EDA-EDF9-4CA8-9EBE-443348B6D916}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\webtech\\assessment1\\assessment1\\jsx1.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\jsx1.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\webtech\\assessment1\\assessment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F51445C3-FC91-4E22-9BFE-8075E9DEEE63}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "jsx1.jsx",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\jsx1.jsx",
+              "RelativeDocumentMoniker": "Assessment1\\jsx1.jsx",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\jsx1.jsx",
+              "RelativeToolTip": "Assessment1\\jsx1.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-05-20T06:33:05.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StyleSheet1.less",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\StyleSheet1.less",
+              "RelativeDocumentMoniker": "Assessment1\\StyleSheet1.less",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\StyleSheet1.less",
+              "RelativeToolTip": "Assessment1\\StyleSheet1.less",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001682|",
+              "WhenOpened": "2026-05-20T06:32:46.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HTMLPage1.html",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\HTMLPage1.html",
+              "RelativeDocumentMoniker": "Assessment1\\HTMLPage1.html",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\HTMLPage1.html",
+              "RelativeToolTip": "Assessment1\\HTMLPage1.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-20T06:32:26.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\Program.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Program.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\WebTech\\Assessment1\\Assessment1\\Program.cs",
+              "RelativeToolTip": "Assessment1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T06:27:55.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
