@@ -1,0 +1,7 @@
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\bin\Debug\Mini-Project.exe.config
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\bin\Debug\Mini-Project.exe
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\bin\Debug\Mini-Project.pdb
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\obj\Debug\Mini-Project.csproj.AssemblyReference.cache
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\obj\Debug\Mini-Project.csproj.CoreCompileInputs.cache
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\obj\Debug\Mini-Project.exe
+C:\Users\athulv\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Mini-Project\Mini-Project\Mini-Project\obj\Debug\Mini-Project.pdb
