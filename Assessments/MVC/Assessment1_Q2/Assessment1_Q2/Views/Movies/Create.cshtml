@@ -1,0 +1,12 @@
+﻿@model Assessment1_Q2.Models.Movie
+
+<h2>Add Movie</h2>
+
+@using (Html.BeginForm())
+{
+    <p>Movie Name: @Html.TextBoxFor(m => m.MovieName)</p>
+    <p>Director: @Html.TextBoxFor(m => m.DirectorName)</p>
+    <p>Date: @Html.TextBoxFor(m => m.DateOfRelease)</p>
+
+    <input type="submit" value="Save" />
+}

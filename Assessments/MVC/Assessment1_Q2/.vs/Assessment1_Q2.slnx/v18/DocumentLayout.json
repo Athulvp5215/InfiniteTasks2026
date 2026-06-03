@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|c:\\dot_net training\\assessments\\mvc\\assessment1_q2\\assessment1_q2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\views\\movies\\moviesbyyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\movies\\moviesbyyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\views\\movies\\moviesbydirector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\movies\\moviesbydirector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|c:\\dot_net training\\assessments\\mvc\\assessment1_q2\\assessment1_q2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|c:\\dot_net training\\assessments\\mvc\\assessment1_q2\\assessment1_q2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\models\\moviescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\models\\moviescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|c:\\dot_net training\\assessments\\mvc\\assessment1_q2\\assessment1_q2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\migrations\\202606030524005_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\migrations\\202606030524005_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\assessment1_q2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{83AEF3E3-7BB1-414B-9907-F71D1C4A28FF}|Assessment1_Q2\\Assessment1_Q2.csproj|solutionrelative:assessment1_q2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoviesByYear.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\MoviesByYear.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Movies\\MoviesByYear.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\MoviesByYear.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Movies\\MoviesByYear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:29:40.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:56:30.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:56:29.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:29:05.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Movies\\Edit.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\Edit.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Movies\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:29:22.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:28:43.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:56:28.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:27:07.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoviesByDirector.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\MoviesByDirector.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\Movies\\MoviesByDirector.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\Movies\\MoviesByDirector.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\Movies\\MoviesByDirector.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:29:56.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Models\\Movie.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Models\\Movie.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:06:50.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoviesContext.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Models\\MoviesContext.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Models\\MoviesContext.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Models\\MoviesContext.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Models\\MoviesContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:08:44.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Repository\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Repository\\IMovieRepository.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Repository\\IMovieRepository.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Repository\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:32:18.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Repository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Repository\\MovieRepository.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Repository\\MovieRepository.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Repository\\MovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:32:37.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:33:08.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Assessment1_Q2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:44:40.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "202606030524005_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Migrations\\202606030524005_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Migrations\\202606030524005_InitialCreate.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Migrations\\202606030524005_InitialCreate.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Migrations\\202606030524005_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:24:15.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Assessment1_Q2\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T05:23:33.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Web.config",
+              "RelativeDocumentMoniker": "Assessment1_Q2\\Web.config",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\MVC\\Assessment1_Q2\\Assessment1_Q2\\Web.config",
+              "RelativeToolTip": "Assessment1_Q2\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-03T05:09:11.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿@model Assessment1_Q2.Models.Movie
+
+<h2>Edit Movie</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.Mid)
+
+    <p>Name: @Html.TextBoxFor(m => m.MovieName)</p>
+    <p>Director: @Html.TextBoxFor(m => m.DirectorName)</p>
+    <p>Date: @Html.TextBoxFor(m => m.DateOfRelease)</p>
+
+    <input type="submit" value="Update" />
+}

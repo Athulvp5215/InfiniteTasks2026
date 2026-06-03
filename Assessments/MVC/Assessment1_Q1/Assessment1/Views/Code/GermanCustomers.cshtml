@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Assessment1.Models.Customer>
+
+<h2>German Customers</h2>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>City</th>
+    </tr>
+
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.CustomerID</td>
+            <td>@c.CompanyName</td>
+            <td>@c.City</td>
+        </tr>
+    }
+</table>

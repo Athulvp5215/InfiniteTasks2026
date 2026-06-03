@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Assessment1_Q2.Models.Movie>
+
+<h2>Movies By Year</h2>
+
+@foreach (var m in Model)
+{
+    <p>@m.MovieName (@m.DateOfRelease.Year)</p>
+}
