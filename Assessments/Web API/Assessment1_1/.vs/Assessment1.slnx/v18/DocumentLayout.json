@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\web api\\assessment1\\assessment1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\web api\\assessment1\\assessment1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\web api\\assessment1\\assessment1\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\web api\\assessment1\\assessment1\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\web api\\assessment1\\assessment1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|c:\\dot_net training\\assessments\\web api\\assessment1\\assessment1\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\assessment1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04544704-3EE3-4C04-9868-2DE91B91788F}|Assessment1\\Assessment1.csproj|solutionrelative:assessment1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Assessment1\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T06:21:17.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Assessment1\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T04:35:37.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Models\\Country.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Models\\Country.cs",
+              "RelativeToolTip": "Assessment1\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T04:34:24.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Global.asax.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Global.asax.cs",
+              "RelativeToolTip": "Assessment1\\Global.asax.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T04:36:17.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Web.config",
+              "RelativeDocumentMoniker": "Assessment1\\Web.config",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Web.config",
+              "RelativeToolTip": "Assessment1\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-09T04:35:54.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Assessment1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T06:21:16.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\SwaggerConfig.cs",
+              "RelativeDocumentMoniker": "Assessment1\\App_Start\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\SwaggerConfig.cs",
+              "RelativeToolTip": "Assessment1\\App_Start\\SwaggerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T06:20:28.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Assessment1\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Assessment1\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T06:20:27.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "Assessment1\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "Assessment1\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T06:20:26.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "Assessment1\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "Assessment1\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T05:15:14.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "Assessment1\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "Assessment1\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T04:37:23.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "Assessment1\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "Assessment1\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T05:22:03.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Assessment1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Dot_Net Training\\Assessments\\Web API\\Assessment1\\Assessment1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Assessment1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-09T05:16:37.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

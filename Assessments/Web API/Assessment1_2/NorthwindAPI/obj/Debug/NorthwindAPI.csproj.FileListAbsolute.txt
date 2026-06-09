@@ -1,0 +1,2 @@
+C:\Dot_Net Training\Assessments\Web API\NorthwindAPI\NorthwindAPI\obj\Debug\NorthwindAPI.csproj.AssemblyReference.cache
+C:\Dot_Net Training\Assessments\Web API\NorthwindAPI\NorthwindAPI\obj\Debug\NorthwindAPI.csproj.CoreCompileInputs.cache
