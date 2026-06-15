@@ -1,0 +1,35 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.User>
+
+<h2>Pending Users</h2>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.Status</td>
+
+            <td>
+                @Html.ActionLink(
+                    "Approve",
+                    "ApproveUser",
+                    new { id = item.UserId })
+
+                |
+
+                @Html.ActionLink(
+                    "Reject",
+                    "RejectUser",
+                    new { id = item.UserId })
+            </td>
+        </tr>
+    }
+</table>

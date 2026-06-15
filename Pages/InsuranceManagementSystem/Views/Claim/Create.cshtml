@@ -1,0 +1,34 @@
+﻿@model InsuranceManagementSystem.Models.Claim
+
+@{
+    ViewBag.Title = "Create Claim";
+}
+
+<h2>Create Claim</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <label>Policy</label>
+        @Html.DropDownList("PolicyId")
+    </div>
+
+    <br />
+
+    <div>
+        <label>Claim Amount</label>
+        @Html.TextBoxFor(m => m.ClaimAmount)
+    </div>
+
+    <br />
+
+    <div>
+        <label>Claim Reason</label>
+        @Html.TextAreaFor(m => m.ClaimReason)
+    </div>
+
+    <br />
+
+    <input type="submit" value="Submit Claim" />
+}
+

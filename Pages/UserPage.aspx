@@ -4,16 +4,16 @@
  
 <div class="container mt-4">
  
-    <!-- Header -->
+  
     <div class="mb-4">
         <h2 class="fw-bold text-primary">User Dashboard</h2>
         <p class="text-muted">View your policy details and take actions</p>
     </div>
  
-    <!-- Card -->
+   
     <div class="card shadow rounded-4 p-4 mx-auto" style="max-width: 450px;">
  
-        <!-- Policy Details -->
+        
         <div class="mb-3">
             <p><b>Policy Number:</b> <span class="text-primary">#12345</span></p>
             <p><b>Vehicle Model:</b> Hyundai i20</p>
@@ -23,7 +23,7 @@
  
         <hr />
  
-        <!-- Action Buttons -->
+       
         <div class="d-flex justify-content-center gap-3 mt-3">
  
             <asp:Button ID="btnClaim" runat="server"

@@ -4,16 +4,15 @@
  
     <div class="container mt-4">
  
-        <!-- Page Title -->
+       
 <div class="mb-4">
 <h2 class="fw-bold text-primary">Dashboard</h2>
 <p class="text-muted">Welcome back! Here's your insurance overview.</p>
 </div>
  
-        <!-- Cards Row -->
 <div class="row g-4">
  
-            <!-- Total Policies -->
+           
 <div class="col-md-3">
 <div class="card text-white bg-primary shadow rounded-4 p-3">
 <div class="d-flex justify-content-between align-items-center">
@@ -26,7 +25,7 @@
 </div>
 </div>
  
-            <!-- Active Policies -->
+          
 <div class="col-md-3">
 <div class="card text-white bg-success shadow rounded-4 p-3">
 <div class="d-flex justify-content-between align-items-center">
@@ -39,7 +38,7 @@
 </div>
 </div>
  
-            <!-- Claims -->
+          
 <div class="col-md-3">
 <div class="card text-white bg-warning shadow rounded-4 p-3">
 <div class="d-flex justify-content-between align-items-center">
@@ -52,7 +51,7 @@
 </div>
 </div>
  
-            <!-- Expired Policies -->
+          
 <div class="col-md-3">
 <div class="card text-white bg-danger shadow rounded-4 p-3">
 <div class="d-flex justify-content-between align-items-center">
@@ -67,7 +66,7 @@
  
         </div>
  
-        <!-- Recent Activity Section -->
+       
 <div class="card mt-5 shadow-sm rounded-4">
 <div class="card-header bg-white">
 <h5 class="mb-0">Recent Activities</h5>

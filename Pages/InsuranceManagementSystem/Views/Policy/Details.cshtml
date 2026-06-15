@@ -1,0 +1,25 @@
+﻿@model InsuranceManagementSystem.Models.Policy
+
+<h2>Policy Details</h2>
+
+<p>
+    Policy Number:
+    @Model.PolicyNumber
+</p>
+
+<p>
+    Premium:
+    @Model.PremiumAmount
+</p>
+
+<p>
+    Start Date:
+    @Model.StartDate
+</p>
+
+<p>
+    End Date:
+    @Model.EndDate
+</p>
+
+@Html.ActionLink("Back", "Index")

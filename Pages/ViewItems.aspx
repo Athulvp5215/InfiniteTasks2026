@@ -4,26 +4,25 @@
  
     <div class="container mt-4">
  
-        <!-- Page Header -->
+      
 <div class="mb-4">
 <h2 class="fw-bold text-primary">View Policies</h2>
 <p class="text-muted">Manage and view all insurance records</p>
 </div>
  
-        <!-- Card Layout -->
+       
 <div class="card shadow rounded-4">
  
-            <!-- Card Header -->
+           
 <div class="card-header bg-white d-flex justify-content-between align-items-center">
 <h5 class="mb-0">Policy List</h5>
- 
-                <!-- Search Box -->
+
 <asp:TextBox ID="txtSearch" runat="server" CssClass="form-control w-25"
 
                     placeholder="Search..." />
 </div>
  
-            <!-- Card Body -->
+          
 <div class="card-body">
  
                 <asp:GridView ID="GridView1" runat="server"
@@ -40,7 +39,7 @@
 <asp:BoundField HeaderText="Customer Name" DataField="Name" />
 <asp:BoundField HeaderText="Category" DataField="Category" />
  
-                        <%-- Action Buttons --%>
+                      
 <asp:TemplateField HeaderText="Actions">
 <ItemTemplate>
 <asp:Button ID="btnView" runat="server"

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Policy>
+
+<h2>Policies</h2>
+
+<p>
+    @Html.ActionLink("Create Policy", "Create")
+</p>
+
+<table border="1">
+    <tr>
+        <th>Policy Number</th>
+        <th>Premium</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.PolicyNumber</td>
+            <td>@item.PremiumAmount</td>
+            <td>@item.StartDate</td>
+            <td>@item.EndDate</td>
+
+            <td>
+                @Html.ActionLink("Details", "Details",
+                    new { id = item.PolicyId })
+
+                |
+
+                @Html.ActionLink("Edit", "Edit",
+                    new { id = item.PolicyId })
+
+                |
+
+                @Html.ActionLink("Delete", "Delete",
+                    new { id = item.PolicyId })
+            </td>
+        </tr>
+    }
+</table>

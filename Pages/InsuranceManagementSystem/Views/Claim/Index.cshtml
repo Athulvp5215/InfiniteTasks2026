@@ -1,0 +1,53 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Claim>
+
+@{
+    ViewBag.Title = "Claims List";
+}
+
+<h2>Claims List</h2>
+
+<p>
+    @Html.ActionLink("Create Claim", "Create")
+</p>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Claim ID</th>
+        <th>Policy ID</th>
+        <th>Claim Amount</th>
+        <th>Claim Reason</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ClaimId</td>
+            <td>@item.PolicyId</td>
+            <td>@item.ClaimAmount</td>
+            <td>@item.ClaimReason</td>
+            <td>@item.ClaimStatus</td>
+
+            <td>
+                @Html.ActionLink("Details", "Details",
+                    new { id = item.ClaimId })
+
+                |
+
+                @Html.ActionLink("Delete", "Delete",
+                    new { id = item.ClaimId })
+
+                |
+
+                @Html.ActionLink("Approve", "Approve",
+                    new { id = item.ClaimId })
+
+                |
+
+                @Html.ActionLink("Reject", "Reject",
+                    new { id = item.ClaimId })
+            </td>
+        </tr>
+    }
+</table>

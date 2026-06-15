@@ -1,0 +1,19 @@
+﻿@model InsuranceManagementSystem.Models.Policy
+
+<h2>Delete Policy</h2>
+
+<p>
+    Are you sure you want to delete:
+    @Model.PolicyNumber ?
+</p>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PolicyId)
+
+    <input type="submit"
+           value="Delete" />
+
+    @Html.ActionLink("Cancel",
+        "Index")
+}

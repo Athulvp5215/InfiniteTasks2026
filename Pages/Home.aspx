@@ -6,7 +6,7 @@
  
     <div class="row mt-4">
  
-        <!-- Left -->
+       
 <div class="col-md-6">
 <div class="card p-4 text-center">
 <h4>Why Insurance?</h4>
@@ -14,7 +14,6 @@
 </div>
 </div>
  
-        <!-- Right -->
 <div class="col-md-6">
 <div class="card p-4 text-center">
  

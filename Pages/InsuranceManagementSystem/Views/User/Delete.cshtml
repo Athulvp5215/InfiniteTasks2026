@@ -1,0 +1,53 @@
+﻿@model InsuranceManagementSystem.Models.User
+
+@{
+    ViewBag.Title = "Delete User";
+}
+
+<h2>Delete User</h2>
+
+<div class="alert alert-danger">
+    <strong>Warning!</strong> Are you sure you want to delete this user?
+</div>
+
+<table class="table table-bordered">
+    <tr>
+        <th>User ID</th>
+        <td>@Model.UserId</td>
+    </tr>
+
+    <tr>
+        <th>Full Name</th>
+        <td>@Model.FullName</td>
+    </tr>
+
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+
+    <tr>
+        <th>Phone Number</th>
+        <td>@Model.PhoneNumber</td>
+    </tr>
+
+    <tr>
+        <th>Role</th>
+        <td>@Model.Role</td>
+    </tr>
+</table>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.UserId)
+
+    <input type="submit"
+           value="Delete"
+           class="btn btn-danger" />
+
+    @Html.ActionLink(
+        "Cancel",
+        "Index",
+        null,
+        new { @class = "btn btn-secondary" })
+}

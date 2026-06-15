@@ -1,0 +1,28 @@
+﻿@model InsuranceManagementSystem.Models.Payment
+
+@{
+    ViewBag.Title = "Create Payment";
+}
+
+<h2>Create Payment</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <label>Policy</label>
+        @Html.DropDownList("PolicyId")
+    </div>
+
+    <br />
+
+    <div>
+        <label>Amount</label>
+        @Html.TextBoxFor(m => m.Amount)
+    </div>
+
+    <br />
+
+    <input type="submit"
+           value="Make Payment" />
+}
+

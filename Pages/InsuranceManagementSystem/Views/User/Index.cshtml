@@ -1,0 +1,67 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.User>
+
+@{
+    ViewBag.Title = "Users List";
+}
+
+<h2>Users List</h2>
+
+<p>
+    @Html.ActionLink("Create New User", "Create", null,
+        new { @class = "btn btn-success" })
+</p>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>User ID</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Role</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    ```
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserId</td>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.Role</td>
+            <td>@item.Status</td>
+
+            <td>
+                @if (item.Role == "User")
+                {
+                    @Html.ActionLink(
+                        "Details",
+                        "Details",
+                        new { id = item.UserId })
+
+                    <text> | </text>
+
+                    @Html.ActionLink(
+                        "Edit",
+                        "Edit",
+                        new { id = item.UserId })
+
+                    <text> | </text>
+
+                    @Html.ActionLink(
+                        "Delete",
+                        "Delete",
+                        new { id = item.UserId })
+                }
+                else
+                {
+                    <span>Admin Account</span>
+                }
+            </td>
+        </tr>
+    }
+    ```
+
+</table>

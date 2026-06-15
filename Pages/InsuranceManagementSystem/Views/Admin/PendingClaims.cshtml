@@ -1,0 +1,35 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Claim>
+
+<h2>Pending Claims</h2>
+
+<table border="1">
+    <tr>
+        <th>Claim ID</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ClaimId</td>
+            <td>@item.ClaimAmount</td>
+            <td>@item.ClaimStatus</td>
+
+            <td>
+                @Html.ActionLink(
+                    "Approve",
+                    "ApproveClaim",
+                    new { id = item.ClaimId })
+
+                |
+
+                @Html.ActionLink(
+                    "Reject",
+                    "RejectClaim",
+                    new { id = item.ClaimId })
+            </td>
+        </tr>
+    }
+</table>

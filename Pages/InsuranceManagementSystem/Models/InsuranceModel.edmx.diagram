@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b220bd2bbf274ef686f7533964cef80d" Name="Diagram1" ZoomLevel="25">
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.Claim" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.InsurancePlan" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.Payment" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.Policy" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.Renewal" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.User" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceManagementDBModel.Vehicle" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK__Claims__PolicyId__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK__Policies__PlanId__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK__Payments__Policy__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK__Policies__UserId__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK__Renewals__Policy__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK__Vehicles__UserId__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceManagementDBModel.FK_Policies_Vehicles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

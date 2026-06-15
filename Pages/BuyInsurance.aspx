@@ -4,16 +4,15 @@
  
 <div class="container mt-4">
  
-    <!-- Header -->
     <div class="mb-4">
         <h2 class="fw-bold text-primary">Buy Insurance</h2>
         <p class="text-muted">Choose your vehicle and enter details</p>
     </div>
  
-    <!-- Card -->
+ 
     <div class="card shadow rounded-4 p-4">
  
-        <!-- Vehicle Selection -->
+        
         <div class="mb-4 text-center">
             <label class="form-label fw-bold">Select Vehicle Type</label><br />
             <asp:Button ID="btnFour" runat="server"
@@ -25,7 +24,7 @@
                 CssClass="btn btn-secondary m-2 px-4" />
         </div>
  
-        <!-- Vehicle Details -->
+      
         <div class="row">
  
             <div class="col-md-6 mb-3">
@@ -81,7 +80,7 @@
  
         <hr />
  
-        <!-- Plan Selection -->
+        
         <div class="mb-3">
             <label class="form-label fw-bold">Choose Plan</label><br />
  
@@ -94,7 +93,7 @@
                 CssClass="btn btn-info m-1 px-4 text-white" />
         </div>
  
-        <!-- Duration -->
+       
         <div class="mb-4">
             <label class="form-label fw-bold">Select Duration</label><br />
  
@@ -107,7 +106,7 @@
                 CssClass="btn btn-success m-1 px-4" />
         </div>
  
-        <!-- Payment Button -->
+      
         <div class="text-center">
             <asp:Button ID="btnPay" runat="server"
                 Text="Make Payment"

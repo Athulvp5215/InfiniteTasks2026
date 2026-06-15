@@ -1,0 +1,47 @@
+﻿@model InsuranceManagementSystem.Models.Claim
+
+@{
+    ViewBag.Title = "Delete Claim";
+}
+
+<h2>Delete Claim</h2>
+
+<h3>Are you sure you want to delete this claim?</h3>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Claim ID</th>
+        <td>@Model.ClaimId</td>
+    </tr>
+
+    <tr>
+        <th>Policy ID</th>
+        <td>@Model.PolicyId</td>
+    </tr>
+
+    <tr>
+        <th>Claim Amount</th>
+        <td>@Model.ClaimAmount</td>
+    </tr>
+
+    <tr>
+        <th>Claim Reason</th>
+        <td>@Model.ClaimReason</td>
+    </tr>
+
+    <tr>
+        <th>Status</th>
+        <td>@Model.ClaimStatus</td>
+    </tr>
+</table>
+
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.ClaimId)
+
+    <input type="submit" value="Delete" />
+
+    @Html.ActionLink("Cancel", "Index")
+}

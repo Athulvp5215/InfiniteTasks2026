@@ -1,0 +1,24 @@
+﻿@model InsuranceManagementSystem.Models.Policy
+
+<h2>Edit Policy</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PolicyId)
+
+    @Html.TextBoxFor(m => m.PolicyNumber)
+
+    @Html.DropDownList("UserId")
+
+    @Html.DropDownList("PlanId")
+
+    @Html.TextBoxFor(m => m.PremiumAmount)
+
+    @Html.TextBoxFor(m => m.StartDate)
+
+    @Html.TextBoxFor(m => m.EndDate)
+
+    <br />
+
+    <input type="submit" value="Update" />
+}

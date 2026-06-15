@@ -1,0 +1,39 @@
+﻿@model InsuranceManagementSystem.Models.User
+
+@{
+    ViewBag.Title = "User Details";
+}
+
+<h2>User Details</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>User ID</th>
+        <td>@Model.UserId</td>
+    </tr>
+
+    <tr>
+        <th>Full Name</th>
+        <td>@Model.FullName</td>
+    </tr>
+
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+
+    <tr>
+        <th>Phone Number</th>
+        <td>@Model.PhoneNumber</td>
+    </tr>
+
+    <tr>
+        <th>Role</th>
+        <td>@Model.Role</td>
+    </tr>
+</table>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.UserId }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+</p>

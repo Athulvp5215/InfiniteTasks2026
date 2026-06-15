@@ -4,7 +4,7 @@
  
 <div class="container mt-4">
  
-    <!-- Header -->
+    
     <div class="mb-4">
         <h2 class="fw-bold text-primary">Insurance Estimate</h2>
         <p class="text-muted">Calculate premium for your vehicle instantly</p>
@@ -12,7 +12,7 @@
  
     <div class="row g-4">
  
-        <!-- 4 Wheeler -->
+      
         <div class="col-md-6">
             <div class="card shadow rounded-4 p-4">
  
@@ -38,7 +38,7 @@
                         CssClass="btn btn-dark" />
                 </div>
  
-                <!-- Result -->
+               
                 <div class="mt-3 text-center">
                     <asp:Label ID="lblCarResult" runat="server"
                         CssClass="fw-bold text-success"></asp:Label>
@@ -47,7 +47,7 @@
             </div>
         </div>
  
-        <!-- 2 Wheeler -->
+        
         <div class="col-md-6">
             <div class="card shadow rounded-4 p-4">
  
@@ -73,7 +73,7 @@
                         CssClass="btn btn-dark" />
                 </div>
  
-                <!-- Result -->
+               
                 <div class="mt-3 text-center">
                     <asp:Label ID="lblBikeResult" runat="server"
                         CssClass="fw-bold text-success"></asp:Label>

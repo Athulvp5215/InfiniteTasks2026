@@ -1,0 +1,39 @@
+﻿@model InsuranceManagementSystem.Models.User
+
+@{
+    ViewBag.Title = "Edit User";
+}
+
+<h2>Edit User</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.UserId)
+
+    <div>
+        <label>Full Name</label>
+        @Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <label>Email</label>
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <label>Phone Number</label>
+        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <label>Role</label>
+        @Html.DropDownListFor(
+            m => m.Role,
+            (SelectList)ViewBag.RoleList,
+            new { @class = "form-control" })
+    </div>
+
+    <br />
+
+    <input type="submit" value="Update" class="btn btn-primary" />
+}

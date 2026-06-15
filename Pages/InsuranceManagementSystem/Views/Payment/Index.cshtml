@@ -1,0 +1,43 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Payment>
+
+@{
+    ViewBag.Title = "Payments";
+}
+
+<h2>Payments</h2>
+
+<p>
+    @Html.ActionLink("Create Payment", "Create")
+</p>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Payment ID</th>
+        <th>Policy ID</th>
+        <th>Amount</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.PaymentId</td>
+            <td>@item.PolicyId</td>
+            <td>@item.Amount</td>
+
+            <td>
+                @Html.ActionLink(
+                    "Details",
+                    "Details",
+                    new { id = item.PaymentId })
+
+                |
+
+                @Html.ActionLink(
+                    "Delete",
+                    "Delete",
+                    new { id = item.PaymentId })
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,38 @@
+﻿@model InsuranceManagementSystem.Models.Claim
+
+@{
+    ViewBag.Title = "Claim Details";
+}
+
+<h2>Claim Details</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Claim ID</th>
+        <td>@Model.ClaimId</td>
+    </tr>
+
+    <tr>
+        <th>Policy ID</th>
+        <td>@Model.PolicyId</td>
+    </tr>
+
+    <tr>
+        <th>Claim Amount</th>
+        <td>@Model.ClaimAmount</td>
+    </tr>
+
+    <tr>
+        <th>Claim Reason</th>
+        <td>@Model.ClaimReason</td>
+    </tr>
+
+    <tr>
+        <th>Status</th>
+        <td>@Model.ClaimStatus</td>
+    </tr>
+</table>
+
+<br />
+
+@Html.ActionLink("Back to List", "Index")

@@ -3,23 +3,22 @@
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
  
     <div class="container mt-4">
- 
-        <!-- Header -->
+
 <div class="mb-4">
 <h2 class="fw-bold text-primary">Add Policy</h2>
 <p class="text-muted">Create a new insurance policy</p>
 </div>
  
-        <!-- Card -->
+
 <div class="card shadow p-4 rounded">
  
-            <!-- Name -->
+         
 <div class="mb-3">
 <label class="form-label">Customer Name</label>
 <asp:TextBox ID="txtName" runat="server" CssClass="form-control"></asp:TextBox>
 </div>
  
-            <!-- Category -->
+   
 <div class="mb-3">
 <label class="form-label">Policy Type</label>
 <asp:DropDownList ID="ddlCategory" runat="server" CssClass="form-select">
@@ -30,7 +29,7 @@
 </asp:DropDownList>
 </div>
  
-            <!-- Description -->
+     
 <div class="mb-3">
 <label class="form-label">Description</label>
 <asp:TextBox ID="txtDescription" runat="server"
@@ -42,13 +41,13 @@
                     Rows="3"></asp:TextBox>
 </div>
  
-            <!-- Amount -->
+     
 <div class="mb-3">
 <label class="form-label">Premium Amount</label>
 <asp:TextBox ID="txtAmount" runat="server" CssClass="form-control"></asp:TextBox>
 </div>
  
-            <!-- Buttons -->
+      
 <div class="mt-3">
 <asp:Button ID="btnSave" runat="server"
 
