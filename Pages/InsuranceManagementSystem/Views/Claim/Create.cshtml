@@ -4,31 +4,67 @@
     ViewBag.Title = "Create Claim";
 }
 
-<h2>Create Claim</h2>
+<div class="container mt-5">
 
-@using (Html.BeginForm())
-{
-    <div>
-        <label>Policy</label>
-        @Html.DropDownList("PolicyId")
+   
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">Create Claim</h2>
+        <p class="text-muted">Submit your insurance claim</p>
     </div>
 
-    <br />
+  
+    <div class="row justify-content-center">
+        <div class="col-md-5">
 
-    <div>
-        <label>Claim Amount</label>
-        @Html.TextBoxFor(m => m.ClaimAmount)
+            <div class="card shadow rounded-4 p-4">
+
+                @using (Html.BeginForm())
+                {
+
+                    <div class="mb-3">
+                        <label class="form-label">Select Policy</label>
+                        @Html.DropDownList(
+                                 "PolicyId",
+                                 null,
+                                 "Select Policy",
+                                 new { @class = "form-select" }
+                             )
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Claim Amount</label>
+                        @Html.TextBoxFor(m => m.ClaimAmount,
+                                 new
+                                 {
+                                     @class = "form-control",
+                                     placeholder = "Enter claim amount"
+                                 })
+                    </div>
+
+                  
+                    <div class="mb-3">
+                        <label class="form-label">Claim Reason</label>
+                        @Html.TextAreaFor(m => m.ClaimReason,
+                                 new
+                                 {
+                                     @class = "form-control",
+                                     rows = 3,
+                                     placeholder = "Enter reason"
+                                 })
+                    </div>
+
+              
+                    <div class="d-grid mt-3">
+                        <input type="submit"
+                               value="Submit Claim"
+                               class="btn btn-primary" />
+                    </div>
+
+                }
+
+            </div>
+
+        </div>
     </div>
 
-    <br />
-
-    <div>
-        <label>Claim Reason</label>
-        @Html.TextAreaFor(m => m.ClaimReason)
-    </div>
-
-    <br />
-
-    <input type="submit" value="Submit Claim" />
-}
-
+</div>

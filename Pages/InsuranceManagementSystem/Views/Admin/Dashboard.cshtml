@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<div class="container mt-4">
+
+    <!-- Header -->
+    <div class="mb-4">
+        <h2 class="fw-bold text-primary">Admin Dashboard</h2>
+        <h5 class="text-muted">Welcome @Session["UserName"]</h5>
+    </div>
+
+    <hr />
+
+   
+    <div class="row g-4">
+
+        
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-primary text-white">
+                <h5>Pending Users</h5>
+                <div class="mt-3">
+                    @Html.ActionLink("Open", "PendingUsers", "Admin", null,
+                             new { @class = "btn btn-light btn-sm" })
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-success text-white">
+                <h5>Pending Claims</h5>
+                <div class="mt-3">
+                    @Html.ActionLink("Open", "PendingClaims", "Admin", null,
+                             new { @class = "btn btn-light btn-sm" })
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-warning text-dark">
+                <h5>Manage Users</h5>
+                <div class="mt-3">
+                    @Html.ActionLink("Open", "Index", "User", null,
+                             new { @class = "btn btn-dark btn-sm" })
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-info text-white">
+                <h5>Policies</h5>
+                <div class="mt-3">
+                    @Html.ActionLink("Open", "Index", "Policy", null,
+                             new { @class = "btn btn-light btn-sm" })
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+ 
+    <div class="row g-4 mt-1">
+
+       
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-secondary text-white">
+                <h5>Payments</h5>
+                <div class="mt-3">
+                    @Html.ActionLink("Open", "Index", "Payment", null,
+                             new { @class = "btn btn-light btn-sm" })
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-danger text-white">
+                <h5>Account</h5>
+                <div class="mt-3">
+                    @Html.ActionLink("Logout", "Logout", "Account", null,
+                             new { @class = "btn btn-light btn-sm" })
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

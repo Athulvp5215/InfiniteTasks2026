@@ -4,36 +4,87 @@
     ViewBag.Title = "Edit User";
 }
 
-<h2>Edit User</h2>
+<div class="container mt-5">
 
-@using (Html.BeginForm())
-{
-    @Html.HiddenFor(m => m.UserId)
-
-    <div>
-        <label>Full Name</label>
-        @Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">Edit User</h2>
+        <p class="text-muted">Update user information</p>
     </div>
 
-    <div>
-        <label>Email</label>
-        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+
+            <div class="card shadow rounded-4 p-4">
+
+                @using (Html.BeginForm())
+                {
+                    @Html.HiddenFor(m => m.UserId)
+
+            
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        @Html.TextBoxFor(m => m.FullName,
+                                 new
+                                 {
+                                     @class = "form-control",
+                                     placeholder = "Enter full name"
+                                 })
+                    </div>
+
+          
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        @Html.TextBoxFor(m => m.Email,
+                                 new
+                                 {
+                                     @class = "form-control",
+                                     placeholder = "Enter email"
+                                 })
+                    </div>
+
+           
+                    <div class="mb-3">
+                        <label class="form-label">Phone Number</label>
+                        @Html.TextBoxFor(m => m.PhoneNumber,
+                                 new
+                                 {
+                                     @class = "form-control",
+                                     placeholder = "Enter phone number"
+                                 })
+                    </div>
+
+           
+                    <div class="mb-4">
+                        <label class="form-label">Role</label>
+                        @Html.DropDownListFor(
+                                 m => m.Role,
+                                 (SelectList)ViewBag.RoleList,
+                                 "Select Role",
+                                 new { @class = "form-select" }
+                             )
+                    </div>
+
+                  
+                    <div class="d-grid gap-2">
+
+                        <input type="submit"
+                               value="Update User"
+                               class="btn btn-primary" />
+
+                        @Html.ActionLink(
+                                 "Cancel",
+                                 "Index",
+                                 null,
+                                 new { @class = "btn btn-secondary text-center" }
+                             )
+
+                    </div>
+                }
+
+            </div>
+
+        </div>
     </div>
 
-    <div>
-        <label>Phone Number</label>
-        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
-    </div>
-
-    <div>
-        <label>Role</label>
-        @Html.DropDownListFor(
-            m => m.Role,
-            (SelectList)ViewBag.RoleList,
-            new { @class = "form-control" })
-    </div>
-
-    <br />
-
-    <input type="submit" value="Update" class="btn btn-primary" />
-}
+</div>

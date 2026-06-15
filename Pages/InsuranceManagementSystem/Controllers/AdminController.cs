@@ -6,26 +6,18 @@ namespace InsuranceManagementSystem.Controllers
 {
     public class AdminController : Controller
     {
-        InsuranceManagementDBEntities1 db =
-            new InsuranceManagementDBEntities1();
+        InsuranceManagementDBEntities2 db =
+        new InsuranceManagementDBEntities2();
 
-        // ================= DASHBOARD =================
-
+        // Admin Home Page
+        // Opens Pending Users directly
+        public ActionResult Dashboard()
+        {
+            return View();
+        }
         public ActionResult Index()
         {
-            ViewBag.TotalUsers =
-                db.Users.Count();
-
-            ViewBag.TotalPolicies =
-                db.Policies.Count();
-
-            ViewBag.TotalClaims =
-                db.Claims.Count();
-
-            ViewBag.TotalPayments =
-                db.Payments.Count();
-
-            return View();
+            return RedirectToAction("Dashboard");
         }
 
         // ================= PENDING USERS =================
@@ -33,8 +25,8 @@ namespace InsuranceManagementSystem.Controllers
         public ActionResult PendingUsers()
         {
             var users = db.Users
-                .Where(u => u.Status == "Pending")
-                .ToList();
+                          .Where(u => u.Status == "Pending")
+                          .ToList();
 
             return View(users);
         }
@@ -70,8 +62,8 @@ namespace InsuranceManagementSystem.Controllers
         public ActionResult PendingClaims()
         {
             var claims = db.Claims
-                .Where(c => c.ClaimStatus == "Pending")
-                .ToList();
+                           .Where(c => c.ClaimStatus == "Pending")
+                           .ToList();
 
             return View(claims);
         }
@@ -102,8 +94,6 @@ namespace InsuranceManagementSystem.Controllers
             return RedirectToAction("PendingClaims");
         }
 
-        // ================= REPORTS =================
-
         public ActionResult Policies()
         {
             return View(db.Policies.ToList());
@@ -114,4 +104,6 @@ namespace InsuranceManagementSystem.Controllers
             return View(db.Payments.ToList());
         }
     }
+
+
 }

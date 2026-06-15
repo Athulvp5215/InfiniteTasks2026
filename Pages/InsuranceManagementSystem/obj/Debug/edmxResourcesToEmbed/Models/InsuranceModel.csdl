@@ -12,8 +12,8 @@
     <Property Name="ClaimDate" Type="DateTime" Precision="0" />
     <Property Name="ApprovedAmount" Type="Decimal" Precision="10" Scale="2" />
     <Property Name="ApprovedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Policy" Relationship="Self.FK__Claims__PolicyId__412EB0B6" FromRole="Claims" ToRole="Policies" />
     <Property Name="Remarks" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Policy" Relationship="Self.FK__Claims__PolicyId__412EB0B6" FromRole="Claims" ToRole="Policies" />
   </EntityType>
   <EntityType Name="InsurancePlan">
     <Key>
@@ -22,8 +22,8 @@
     <Property Name="PlanId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="PlanName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="BasePremium" Type="Decimal" Precision="10" Scale="2" />
-    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__PlanId__3B75D760" FromRole="InsurancePlans" ToRole="Policies" />
     <Property Name="Description" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__PlanId__3B75D760" FromRole="InsurancePlans" ToRole="Policies" />
   </EntityType>
   <EntityType Name="Payment">
     <Key>
@@ -33,8 +33,8 @@
     <Property Name="PolicyId" Type="Int32" />
     <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" />
     <Property Name="PaymentStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Policy" Relationship="Self.FK__Payments__Policy__3E52440B" FromRole="Payments" ToRole="Policies" />
     <Property Name="PaymentDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Policy" Relationship="Self.FK__Payments__Policy__3E52440B" FromRole="Payments" ToRole="Policies" />
   </EntityType>
   <EntityType Name="Policy">
     <Key>
@@ -48,14 +48,14 @@
     <Property Name="StartDate" Type="DateTime" Precision="0" />
     <Property Name="EndDate" Type="DateTime" Precision="0" />
     <Property Name="PolicyStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VehicleId" Type="Int32" />
+    <Property Name="PolicyType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Claims" Relationship="Self.FK__Claims__PolicyId__412EB0B6" FromRole="Policies" ToRole="Claims" />
     <NavigationProperty Name="InsurancePlan" Relationship="Self.FK__Policies__PlanId__3B75D760" FromRole="Policies" ToRole="InsurancePlans" />
     <NavigationProperty Name="Payments" Relationship="Self.FK__Payments__Policy__3E52440B" FromRole="Policies" ToRole="Payments" />
     <NavigationProperty Name="User" Relationship="Self.FK__Policies__UserId__3A81B327" FromRole="Policies" ToRole="Users" />
     <NavigationProperty Name="Renewals" Relationship="Self.FK__Renewals__Policy__46E78A0C" FromRole="Policies" ToRole="Renewals" />
-    <Property Name="VehicleId" Type="Int32" />
-    <Property Name="PolicyType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="Vehicle" Relationship="InsuranceManagementDBModel.FK_Policies_Vehicles" FromRole="Policy" ToRole="Vehicle" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_Policies_Vehicles" FromRole="Policies" ToRole="Vehicles" />
   </EntityType>
   <EntityType Name="Renewal">
     <Key>
@@ -78,11 +78,11 @@
     <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
     <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__UserId__3A81B327" FromRole="Users" ToRole="Policies" />
-    <NavigationProperty Name="Vehicles" Relationship="Self.FK__Vehicles__UserId__440B1D61" FromRole="Users" ToRole="Vehicles" />
     <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__UserId__3A81B327" FromRole="Users" ToRole="Policies" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK__Vehicles__UserId__440B1D61" FromRole="Users" ToRole="Vehicles" />
   </EntityType>
   <EntityType Name="Vehicle">
     <Key>
@@ -93,12 +93,12 @@
     <Property Name="VehicleNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="VehicleType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="VehicleModel" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="User" Relationship="Self.FK__Vehicles__UserId__440B1D61" FromRole="Vehicles" ToRole="Users" />
     <Property Name="Manufacturer" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="ManufactureYear" Type="Int32" />
     <Property Name="EngineNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="ChassisNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="Policies" Relationship="InsuranceManagementDBModel.FK_Policies_Vehicles" FromRole="Vehicle" ToRole="Policy" />
+    <NavigationProperty Name="Policies" Relationship="Self.FK_Policies_Vehicles" FromRole="Vehicles" ToRole="Policies" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Vehicles__UserId__440B1D61" FromRole="Vehicles" ToRole="Users" />
   </EntityType>
   <Association Name="FK__Claims__PolicyId__412EB0B6">
     <End Role="Policies" Type="Self.Policy" Multiplicity="0..1" />
@@ -160,6 +160,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Policies_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="0..1" />
+    <End Role="Policies" Type="Self.Policy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="Policies">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK__Vehicles__UserId__440B1D61">
     <End Role="Users" Type="Self.User" Multiplicity="0..1" />
     <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
@@ -172,7 +184,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="InsuranceManagementDBEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="InsuranceManagementDBEntities2" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Claims" EntityType="Self.Claim" />
     <EntitySet Name="InsurancePlans" EntityType="Self.InsurancePlan" />
     <EntitySet Name="Payments" EntityType="Self.Payment" />
@@ -200,25 +212,13 @@
       <End Role="Policies" EntitySet="Policies" />
       <End Role="Renewals" EntitySet="Renewals" />
     </AssociationSet>
+    <AssociationSet Name="FK_Policies_Vehicles" Association="Self.FK_Policies_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="Policies" EntitySet="Policies" />
+    </AssociationSet>
     <AssociationSet Name="FK__Vehicles__UserId__440B1D61" Association="Self.FK__Vehicles__UserId__440B1D61">
       <End Role="Users" EntitySet="Users" />
       <End Role="Vehicles" EntitySet="Vehicles" />
     </AssociationSet>
-    <AssociationSet Name="FK_Policies_Vehicles" Association="InsuranceManagementDBModel.FK_Policies_Vehicles">
-      <End Role="Vehicle" EntitySet="Vehicles" />
-      <End Role="Policy" EntitySet="Policies" />
-    </AssociationSet>
   </EntityContainer>
-  <Association Name="FK_Policies_Vehicles">
-    <End Type="InsuranceManagementDBModel.Vehicle" Role="Vehicle" Multiplicity="0..1" />
-    <End Type="InsuranceManagementDBModel.Policy" Role="Policy" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Vehicle">
-        <PropertyRef Name="VehicleId" />
-      </Principal>
-      <Dependent Role="Policy">
-        <PropertyRef Name="VehicleId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
 </Schema>

@@ -6,43 +6,34 @@ namespace InsuranceManagementSystem.Controllers
 {
     public class UserController : Controller
     {
-        InsuranceManagementDBEntities1 db =
-        new InsuranceManagementDBEntities1();
+        InsuranceManagementDBEntities2 db =
+        new InsuranceManagementDBEntities2();
 
 
-    public ActionResult Index()
+    // ================= USER DASHBOARD =================
+
+    public ActionResult Dashboard()
+        {
+            return View();
+        }
+
+        // ================= USER MANAGEMENT =================
+
+        public ActionResult Index()
         {
             var users = db.Users.ToList();
 
             return View(users);
         }
 
-        public ActionResult Create()
+        public ActionResult Details(int id)
         {
-            ViewBag.RoleList =
-                new SelectList(
-                    new[] { "Admin", "User" });
+            User user = db.Users.Find(id);
 
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Create(User user)
-        {
-            if (ModelState.IsValid)
+            if (user == null)
             {
-                user.Status = "Pending";
-
-                db.Users.Add(user);
-
-                db.SaveChanges();
-
-                return RedirectToAction("Index");
+                return HttpNotFound();
             }
-
-            ViewBag.RoleList =
-                new SelectList(
-                    new[] { "Admin", "User" });
 
             return View(user);
         }
@@ -77,23 +68,6 @@ namespace InsuranceManagementSystem.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.RoleList =
-                new SelectList(
-                    new[] { "Admin", "User" },
-                    user.Role);
-
-            return View(user);
-        }
-
-        public ActionResult Details(int id)
-        {
-            User user = db.Users.Find(id);
-
-            if (user == null)
-            {
-                return HttpNotFound();
-            }
-
             return View(user);
         }
 
@@ -123,44 +97,6 @@ namespace InsuranceManagementSystem.Controllers
 
             return RedirectToAction("Index");
         }
-
-        public ActionResult PendingUsers()
-        {
-            var users = db.Users
-                          .Where(u => u.Status == "Pending")
-                          .ToList();
-
-            return View(users);
-        }
-
-        public ActionResult Approve(int id)
-        {
-            User user = db.Users.Find(id);
-
-            if (user != null)
-            {
-                user.Status = "Approved";
-
-                db.SaveChanges();
-            }
-
-            return RedirectToAction("PendingUsers");
-        }
-
-        public ActionResult Reject(int id)
-        {
-            User user = db.Users.Find(id);
-
-            if (user != null)
-            {
-                user.Status = "Rejected";
-
-                db.SaveChanges();
-            }
-
-            return RedirectToAction("PendingUsers");
-        }
     }
-
 
 }

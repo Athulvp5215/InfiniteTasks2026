@@ -1,14 +1,13 @@
-﻿using InsuranceManagementSystem.Models;
-using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
+using InsuranceManagementSystem.Models;
 
 namespace InsuranceManagementSystem.Controllers
 {
     public class PolicyController : Controller
     {
-        InsuranceManagementDBEntities1 db =
-            new InsuranceManagementDBEntities1();
+        InsuranceManagementDBEntities2 db =
+            new InsuranceManagementDBEntities2();
 
         // ================= INDEX =================
 
@@ -102,31 +101,7 @@ namespace InsuranceManagementSystem.Controllers
 
             return View(policy);
         }
-        // ================= BUY INSURANCE =================
 
-        public ActionResult Buy()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Buy(
-            string VehicleType,
-            string Manufacturer,
-            string Model,
-            string DL,
-            DateTime PurchaseDate,
-            string RegistrationNumber,
-            string EngineNumber,
-            string ChassisNumber,
-            string Plan,
-            string Duration)
-        {
-            // Here you can write DB save logic
-
-            return RedirectToAction("Index");
-        }
         // ================= DELETE =================
 
         public ActionResult Delete(int id)

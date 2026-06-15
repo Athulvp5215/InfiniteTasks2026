@@ -4,50 +4,119 @@
     ViewBag.Title = "Claims List";
 }
 
-<h2>Claims List</h2>
+<div class="container mt-4">
 
-<p>
-    @Html.ActionLink("Create Claim", "Create")
-</p>
+    <div class="mb-4 d-flex justify-content-between align-items-center">
+        <div>
+            <h2 class="fw-bold text-primary">Claims List</h2>
+            <p class="text-muted">Manage all insurance claims</p>
+        </div>
 
-<table border="1" cellpadding="10">
-    <tr>
-        <th>Claim ID</th>
-        <th>Policy ID</th>
-        <th>Claim Amount</th>
-        <th>Claim Reason</th>
-        <th>Status</th>
-        <th>Actions</th>
-    </tr>
+       
+        @Html.ActionLink(
+                 "Create Claim",
+                 "Create",
+                 null,
+                 new { @class = "btn btn-success px-4" }
+             )
+    </div>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.ClaimId</td>
-            <td>@item.PolicyId</td>
-            <td>@item.ClaimAmount</td>
-            <td>@item.ClaimReason</td>
-            <td>@item.ClaimStatus</td>
+   
+    <div class="card shadow rounded-4">
 
-            <td>
-                @Html.ActionLink("Details", "Details",
-                    new { id = item.ClaimId })
+        <div class="card-body">
 
-                |
+            <table class="table table-hover table-striped text-center">
 
-                @Html.ActionLink("Delete", "Delete",
-                    new { id = item.ClaimId })
+                <thead class="table-dark">
+                    <tr>
+                        <th>Claim ID</th>
+                        <th>Policy ID</th>
+                        <th>Claim Amount (₹)</th>
+                        <th>Claim Reason</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
 
-                |
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
 
-                @Html.ActionLink("Approve", "Approve",
-                    new { id = item.ClaimId })
+                           
+                            <td>@item.ClaimId</td>
 
-                |
+                         
+                            <td>@item.PolicyId</td>
 
-                @Html.ActionLink("Reject", "Reject",
-                    new { id = item.ClaimId })
-            </td>
-        </tr>
-    }
-</table>
+                           
+                            <td class="fw-bold text-success">
+                                ₹ @item.ClaimAmount
+                            </td>
+
+                            <td>@item.ClaimReason</td>
+
+                       
+                            <td>
+                                @if (item.ClaimStatus == "Approved")
+                                {
+                                    <span class="badge bg-success">Approved</span>
+                                }
+                                else if (item.ClaimStatus == "Rejected")
+                                {
+                                    <span class="badge bg-danger">Rejected</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark">Pending</span>
+                                }
+                            </td>
+
+                       
+                            <td>
+                                @Html.ActionLink(
+                                         "Details",
+                                         "Details",
+                                         new { id = item.ClaimId },
+                                         new { @class = "btn btn-sm btn-info text-white me-1" }
+                                     )
+
+                                @Html.ActionLink(
+                                         "Delete",
+                                         "Delete",
+                                         new { id = item.ClaimId },
+                                         new
+                                         {
+                                             @class = "btn btn-sm btn-danger me-1",
+                                             onclick = "return confirm('Delete this claim?');"
+                                         }
+                                     )
+
+                                @Html.ActionLink(
+                                         "Approve",
+                                         "Approve",
+                                         new { id = item.ClaimId },
+                                         new { @class = "btn btn-sm btn-success me-1" }
+                                     )
+
+                                @Html.ActionLink(
+                                         "Reject",
+                                         "Reject",
+                                         new { id = item.ClaimId },
+                                         new { @class = "btn btn-sm btn-warning text-dark" }
+                                     )
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+

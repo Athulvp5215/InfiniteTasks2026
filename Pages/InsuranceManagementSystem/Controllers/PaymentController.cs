@@ -10,8 +10,8 @@ namespace InsuranceManagementSystem.Controllers
 {
     public class PaymentController : Controller
     {
-        InsuranceManagementDBEntities1 db =
-        new InsuranceManagementDBEntities1();
+        InsuranceManagementDBEntities2 db =
+        new InsuranceManagementDBEntities2();
 
 
 

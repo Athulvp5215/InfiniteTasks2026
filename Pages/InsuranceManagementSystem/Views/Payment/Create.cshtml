@@ -4,25 +4,57 @@
     ViewBag.Title = "Create Payment";
 }
 
-<h2>Create Payment</h2>
+<div class="container mt-5">
 
-@using (Html.BeginForm())
-{
-    <div>
-        <label>Policy</label>
-        @Html.DropDownList("PolicyId")
+
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">Make Payment</h2>
+        <p class="text-muted">Pay for your insurance policy</p>
     </div>
 
-    <br />
+    <div class="row justify-content-center">
+        <div class="col-md-5">
 
-    <div>
-        <label>Amount</label>
-        @Html.TextBoxFor(m => m.Amount)
+            <div class="card shadow rounded-4 p-4">
+
+                @using (Html.BeginForm())
+                {
+
+                   
+                    <div class="mb-3">
+                        <label class="form-label">Select Policy</label>
+                        @Html.DropDownList(
+                                 "PolicyId",
+                                 null,
+                                 "Select Policy",
+                                 new { @class = "form-select" }
+                             )
+                    </div>
+
+                  
+                    <div class="mb-3">
+                        <label class="form-label">Amount (₹)</label>
+                        @Html.TextBoxFor(m => m.Amount,
+                                 new
+                                 {
+                                     @class = "form-control",
+                                     placeholder = "Enter payment amount"
+                                 })
+                    </div>
+
+                   
+                    <div class="d-grid mt-3">
+                        <input type="submit"
+                               value="Make Payment"
+                               class="btn btn-success" />
+                    </div>
+
+                }
+
+            </div>
+
+        </div>
     </div>
 
-    <br />
-
-    <input type="submit"
-           value="Make Payment" />
-}
+</div>
 

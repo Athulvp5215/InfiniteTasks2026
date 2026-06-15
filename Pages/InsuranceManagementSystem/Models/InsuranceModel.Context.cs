@@ -13,10 +13,10 @@ namespace InsuranceManagementSystem.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class InsuranceManagementDBEntities1 : DbContext
+    public partial class InsuranceManagementDBEntities2 : DbContext
     {
-        public InsuranceManagementDBEntities1()
-            : base("name=InsuranceManagementDBEntities1")
+        public InsuranceManagementDBEntities2()
+            : base("name=InsuranceManagementDBEntities2")
         {
         }
     

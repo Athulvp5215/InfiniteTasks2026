@@ -6,8 +6,8 @@ namespace InsuranceManagementSystem.Controllers
 {
     public class AccountController : Controller
     {
-        InsuranceManagementDBEntities1 db =
-            new InsuranceManagementDBEntities1();
+        InsuranceManagementDBEntities2 db =
+            new InsuranceManagementDBEntities2();
 
 
 
@@ -20,19 +20,22 @@ namespace InsuranceManagementSystem.Controllers
         public ActionResult Login(string email, string password)
         {
             var user = db.Users.FirstOrDefault(
-                u => u.Email == email
-                  && u.Password == password);
+            u => u.Email == email &&
+            u.Password == password);
 
-            if (user == null)
+
+if (user == null)
             {
                 ViewBag.Error = "Invalid Email or Password";
                 return View();
             }
 
-            if (user.Status != "Approved")
+            if (user.Role != "Admin" &&
+                user.Status != "Approved")
             {
                 ViewBag.Error =
-                    "Your account is not approved yet.";
+                    "Your account is waiting for admin approval.";
+
                 return View();
             }
 
@@ -43,16 +46,18 @@ namespace InsuranceManagementSystem.Controllers
             if (user.Role == "Admin")
             {
                 return RedirectToAction(
-                    "Index",
-                    "User");
+                    "Dashboard",
+                    "Admin");
             }
 
             return RedirectToAction(
-                "Index",
+                "Dashboard",
                 "User");
-        }
 
-    
+
+}
+
+
         public ActionResult Register()
         {
             ViewBag.RoleList =

@@ -1,35 +1,79 @@
 ﻿@model IEnumerable<InsuranceManagementSystem.Models.User>
 
-<h2>Pending Users</h2>
+@{
+    ViewBag.Title = "Pending Users";
+}
 
-<table border="1">
-    <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Status</th>
-        <th>Action</th>
-    </tr>
+<div class="container mt-4">
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.FullName</td>
-            <td>@item.Email</td>
-            <td>@item.Status</td>
+   
+    <div class="mb-4">
+        <h2 class="fw-bold text-primary">Pending Users</h2>
+        <p class="text-muted">Approve or reject newly registered users</p>
+    </div>
 
-            <td>
-                @Html.ActionLink(
-                    "Approve",
-                    "ApproveUser",
-                    new { id = item.UserId })
+    <div class="card shadow rounded-4">
 
-                |
+        <div class="card-body">
 
-                @Html.ActionLink(
-                    "Reject",
-                    "RejectUser",
-                    new { id = item.UserId })
-            </td>
-        </tr>
-    }
-</table>
+            <table class="table table-hover table-striped text-center">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                         
+                            <td class="fw-semibold">@item.FullName</td>
+
+                           
+                            <td>@item.Email</td>
+
+                          
+                            <td>
+                                <span class="badge bg-warning text-dark">
+                                    @item.Status
+                                </span>
+                            </td>
+
+                            
+                            <td>
+                                @Html.ActionLink(
+                                         "Approve",
+                                         "ApproveUser",
+                                         new { id = item.UserId },
+                                         new { @class = "btn btn-sm btn-success me-2" }
+                                     )
+
+                                @Html.ActionLink(
+                                         "Reject",
+                                         "RejectUser",
+                                         new { id = item.UserId },
+                                         new
+                                         {
+                                             @class = "btn btn-sm btn-danger",
+                                             onclick = "return confirm('Are you sure you want to reject this user?');"
+                                         }
+                                     )
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

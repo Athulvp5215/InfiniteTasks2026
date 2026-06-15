@@ -1,35 +1,82 @@
 ﻿@model IEnumerable<InsuranceManagementSystem.Models.Claim>
 
-<h2>Pending Claims</h2>
+@{
+    ViewBag.Title = "Pending Claims";
+}
 
-<table border="1">
-    <tr>
-        <th>Claim ID</th>
-        <th>Amount</th>
-        <th>Status</th>
-        <th>Action</th>
-    </tr>
+<div class="container mt-4">
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.ClaimId</td>
-            <td>@item.ClaimAmount</td>
-            <td>@item.ClaimStatus</td>
+  
+    <div class="mb-4">
+        <h2 class="fw-bold text-primary">Pending Claims</h2>
+        <p class="text-muted">Review and approve or reject claims</p>
+    </div>
 
-            <td>
-                @Html.ActionLink(
-                    "Approve",
-                    "ApproveClaim",
-                    new { id = item.ClaimId })
+   
+    <div class="card shadow rounded-4">
 
-                |
+        <div class="card-body">
 
-                @Html.ActionLink(
-                    "Reject",
-                    "RejectClaim",
-                    new { id = item.ClaimId })
-            </td>
-        </tr>
-    }
-</table>
+            <table class="table table-hover table-striped text-center">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Claim ID</th>
+                        <th>Amount (₹)</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            
+                            <td>@item.ClaimId</td>
+
+                           
+                            <td class="fw-bold text-success">
+                                ₹ @item.ClaimAmount
+                            </td>
+
+                          
+                            <td>
+                                <span class="badge bg-warning text-dark">
+                                    @item.ClaimStatus
+                                </span>
+                            </td>
+
+                          
+                            <td>
+                                @Html.ActionLink(
+                                         "Approve",
+                                         "ApproveClaim",
+                                         new { id = item.ClaimId },
+                                         new { @class = "btn btn-sm btn-success me-2" }
+                                     )
+
+                                @Html.ActionLink(
+                                         "Reject",
+                                         "RejectClaim",
+                                         new { id = item.ClaimId },
+                                         new
+                                         {
+                                             @class = "btn btn-sm btn-danger",
+                                             onclick = "return confirm('Are you sure you want to reject this claim?');"
+                                         }
+                                     )
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

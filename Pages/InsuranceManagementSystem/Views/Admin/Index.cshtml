@@ -1,9 +1,46 @@
-﻿<h2>Admin Dashboard</h2>
+﻿@{
+    ViewBag.Title = "Admin Dashboard";
+}
 
-<p>Total Users : @ViewBag.TotalUsers</p>
+<div class="container mt-4">
 
-<p>Total Policies : @ViewBag.TotalPolicies</p>
+    
+    <div class="mb-4 text-center">
+        <h2 class="fw-bold text-primary">Admin Dashboard</h2>
+        <p class="text-muted">Overview of system statistics</p>
+    </div>
 
-<p>Total Claims : @ViewBag.TotalClaims</p>
+    <div class="row g-4">
 
-<p>Total Payments : @ViewBag.TotalPayments</p>
+  
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-primary text-white">
+                <h6>Total Users</h6>
+                <h2 class="fw-bold">@ViewBag.TotalUsers</h2>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-success text-white">
+                <h6>Total Policies</h6>
+                <h2 class="fw-bold">@ViewBag.TotalPolicies</h2>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-warning text-dark">
+                <h6>Total Claims</h6>
+                <h2 class="fw-bold">@ViewBag.TotalClaims</h2>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow rounded-4 text-center p-3 bg-danger text-white">
+                <h6>Total Payments</h6>
+                <h2 class="fw-bold">@ViewBag.TotalPayments</h2>
+            </div>
+        </div>
+
+    </div>
+
+</div>

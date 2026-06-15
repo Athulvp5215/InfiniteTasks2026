@@ -20,23 +20,79 @@
         <th>Policy ID</th>
         <td>@Model.PolicyId</td>
     </tr>
+    @model InsuranceManagementSystem.Models.Payment
 
-    <tr>
-        <th>Amount</th>
-        <td>@Model.Amount</td>
-    </tr>
-</table>
+    @{
+        ViewBag.Title = "Delete Payment";
+    }
 
-<br />
+    <div class="container mt-5">
 
-@using (Html.BeginForm())
-{
-    @Html.HiddenFor(m => m.PaymentId)
+      
+        <div class="text-center mb-4">
+            <h2 class="fw-bold text-danger">Delete Payment</h2>
+            <p class="text-muted">Confirm before deleting this payment</p>
+        </div>
 
-    <input type="submit"
-           value="Delete" />
+       
+        <div class="row justify-content-center">
+            <div class="col-md-5">
 
-    @Html.ActionLink(
-        "Cancel",
-        "Index")
-}
+                <div class="card shadow rounded-4 p-4">
+
+                    <div class="alert alert-danger text-center">
+                        <strong>Warning!</strong> Are you sure you want to delete this payment?
+                    </div>
+
+                 
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <th>Payment ID</th>
+                            <td>@Model.PaymentId</td>
+                        </tr>
+
+                        <tr>
+                            <th>Policy ID</th>
+                            <td>@Model.PolicyId</td>
+                        </tr>
+
+                        <tr>
+                            <th>Amount</th>
+                            <td class="fw-bold text-success">
+                                ₹ @Model.Amount
+                            </td>
+                        </tr>
+
+                    </table>
+
+                  
+                    @using (Html.BeginForm())
+                    {
+                        @Html.HiddenFor(m => m.PaymentId)
+
+                        <div class="d-grid gap-2 mt-3">
+
+                            <input type="submit"
+                                   value="Delete"
+                                   class="btn btn-danger"
+                                   onclick="return confirm('Are you sure you want to delete this payment?');" />
+
+                          
+                            @Html.ActionLink(
+                                "Cancel",
+                                "Index",
+                                null,
+                                new { @class = "btn btn-secondary text-center" }
+                            )
+
+                        </div>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+

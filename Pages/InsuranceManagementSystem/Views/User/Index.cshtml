@@ -4,64 +4,113 @@
     ViewBag.Title = "Users List";
 }
 
-<h2>Users List</h2>
+<div class="container mt-4">
 
-<p>
-    @Html.ActionLink("Create New User", "Create", null,
-        new { @class = "btn btn-success" })
-</p>
 
-<table border="1" cellpadding="10">
-    <tr>
-        <th>User ID</th>
-        <th>Full Name</th>
-        <th>Email</th>
-        <th>Phone Number</th>
-        <th>Role</th>
-        <th>Status</th>
-        <th>Actions</th>
-    </tr>
+    <div class="mb-4">
+        <h2 class="fw-bold text-primary">Users List</h2>
+        <p class="text-muted">Manage all users in the system</p>
+    </div>
 
-    ```
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.UserId</td>
-            <td>@item.FullName</td>
-            <td>@item.Email</td>
-            <td>@item.PhoneNumber</td>
-            <td>@item.Role</td>
-            <td>@item.Status</td>
+    <div class="card shadow rounded-4">
 
-            <td>
-                @if (item.Role == "User")
-                {
-                    @Html.ActionLink(
-                        "Details",
-                        "Details",
-                        new { id = item.UserId })
+        <div class="card-body">
 
-                    <text> | </text>
+            <table class="table table-hover table-striped text-center align-middle">
 
-                    @Html.ActionLink(
-                        "Edit",
-                        "Edit",
-                        new { id = item.UserId })
+                <thead class="table-dark">
+                    <tr>
+                        <th>User ID</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Role</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
 
-                    <text> | </text>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
 
-                    @Html.ActionLink(
-                        "Delete",
-                        "Delete",
-                        new { id = item.UserId })
-                }
-                else
-                {
-                    <span>Admin Account</span>
-                }
-            </td>
-        </tr>
-    }
-    ```
+                            <td>@item.UserId</td>
 
-</table>
+                            
+                            <td class="fw-semibold">@item.FullName</td>
+
+                          
+                            <td>@item.Email</td>
+
+                            <td>@item.PhoneNumber</td>
+
+                           
+                            <td>
+                                <span class="badge bg-info text-dark">
+                                    @item.Role
+                                </span>
+                            </td>
+
+                            <td>
+                                @if (item.Status == "Approved")
+                                {
+                                    <span class="badge bg-success">Approved</span>
+                                }
+                                else if (item.Status == "Rejected")
+                                {
+                                    <span class="badge bg-danger">Rejected</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark">Pending</span>
+                                }
+                            </td>
+
+
+                            <td>
+                                @if (item.Role == "User")
+                                {
+                                    @Html.ActionLink(
+                                             "Details",
+                                             "Details",
+                                             new { id = item.UserId },
+                                             new { @class = "btn btn-sm btn-info text-white me-1" }
+                                         )
+
+                                    @Html.ActionLink(
+                                             "Edit",
+                                             "Edit",
+                                             new { id = item.UserId },
+                                             new { @class = "btn btn-sm btn-warning text-dark me-1" }
+                                         )
+
+                                    @Html.ActionLink(
+                                             "Delete",
+                                             "Delete",
+                                             new { id = item.UserId },
+                                             new
+                                             {
+                                                 @class = "btn btn-sm btn-danger",
+                                                 onclick = "return confirm('Delete this user?');"
+                                             }
+                                         )
+                                }
+                                else
+                                {
+                                    <span class="text-muted fw-semibold">Admin Account</span>
+                                }
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
