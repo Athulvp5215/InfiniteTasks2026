@@ -1,0 +1,63 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Claim>
+
+@{
+    ViewBag.Title = "My Claims";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>My Claims</h2>
+
+<hr />
+
+<table class="table table-bordered table-striped">
+
+    <tr>
+        <th>Claim ID</th>
+        <th>Policy ID</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Approved Amount</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.ClaimId</td>
+
+            <td>@item.Policy.PolicyNumber</td>
+
+            <td>₹ @item.ClaimAmount</td>
+
+            <td>@item.ClaimStatus</td>
+
+            <td>₹ @item.ApprovedAmount</td>
+
+            <td>
+
+                <a href="@Url.Action(
+                    "Details",
+                    "Claim",
+                    new { id = item.ClaimId })"
+                   class="btn btn-info btn-sm">
+                    Details
+                </a>
+
+                @if (item.ClaimStatus == "Pending")
+                {
+                    <a href="@Url.Action(
+                        "Edit",
+                        "Claim",
+                        new { id = item.ClaimId })"
+                       class="btn btn-warning btn-sm">
+                        Edit
+                    </a>
+                }
+
+            </td>
+
+        </tr>
+    }
+
+</table>

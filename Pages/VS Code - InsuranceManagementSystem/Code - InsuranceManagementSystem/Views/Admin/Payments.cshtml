@@ -1,0 +1,30 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Payment>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Payments</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Payment Id</th>
+        <th>Policy Id</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Date</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.PaymentId</td>
+            <td>@item.PolicyId</td>
+            <td>@item.Amount</td>
+            <td>@item.PaymentStatus</td>
+            <td>@item.PaymentDate</td>
+        </tr>
+    }
+
+</table>

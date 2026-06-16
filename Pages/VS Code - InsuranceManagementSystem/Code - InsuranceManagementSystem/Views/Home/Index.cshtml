@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="hero">
+
+    <div>
+
+        <h1>
+            Vehicle Insurance Management System
+        </h1>
+
+        <p>
+            Secure Your Vehicle With Smart Insurance Solutions
+        </p>
+
+        <a href="@Url.Action("Register","Account")"
+           class="btn btn-success btn-lg">
+
+            Get Started
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="container mt-5">
+
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <div class="feature-box">
+
+                <i class="fa fa-car fa-3x text-primary"></i>
+
+                <h4 class="mt-3">
+                    Vehicle Management
+                </h4>
+
+                <p>
+                    Manage all vehicle details easily.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="feature-box">
+
+                <i class="fa fa-file-contract fa-3x text-success"></i>
+
+                <h4 class="mt-3">
+                    Policy Management
+                </h4>
+
+                <p>
+                    Buy and manage insurance policies.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="feature-box">
+
+                <i class="fa fa-shield-alt fa-3x text-danger"></i>
+
+                <h4 class="mt-3">
+                    Claim Support
+                </h4>
+
+                <p>
+                    Raise and track insurance claims.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

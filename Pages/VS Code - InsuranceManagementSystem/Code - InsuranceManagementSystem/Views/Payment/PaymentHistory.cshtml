@@ -1,0 +1,52 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Payment>
+
+@{
+    ViewBag.Title = "Payment History";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Payment History</h2>
+
+<hr />
+
+<table class="table table-bordered table-striped">
+
+    <tr>
+        <th>Payment ID</th>
+        <th>Policy Number</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.PaymentId</td>
+
+            <td>@item.Policy.PolicyNumber</td>
+
+            <td>₹ @item.Amount</td>
+
+            <td>@item.PaymentStatus</td>
+
+            <td>@item.PaymentDate</td>
+
+            <td>
+
+                <a href="@Url.Action(
+                    "Details",
+                    "Payment",
+                    new { id = item.PaymentId })"
+                   class="btn btn-info btn-sm">
+                    Details
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

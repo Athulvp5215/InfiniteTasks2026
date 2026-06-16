@@ -1,0 +1,1036 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\policy\\mypolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\policy\\mypolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\renewalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\renewalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|c:\\users\\arulp\\downloads\\insurancemanagementsystem 1\\insurancemanagementsystem\\insurancemanagementsystem\\views\\renewal\\renewpolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\renewal\\renewpolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\policy\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\policy\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\user\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\user\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\renewals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\renewals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\policy\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\policy\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\policy\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\policy\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|c:\\users\\arulp\\downloads\\insurancemanagementsystem 1\\insurancemanagementsystem\\insurancemanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\policy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\policy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\policies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\policies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\payments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\payments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\claims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\claims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\renewal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\renewal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\payment\\paymenthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\payment\\paymenthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\payment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\payment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\payment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\payment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\policy\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\policy\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\claim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\claim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\vehicle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\vehicle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\insuranceplan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\insuranceplan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\insuranceplan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\insuranceplan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\insuranceplan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\insuranceplan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\claim\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\claim\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\vehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\vehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\renewal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\renewal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\renewal\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\renewal\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\payment\\receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\payment\\receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\insuranceplan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\insuranceplan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\insuranceplan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\insuranceplan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\views\\vehicle\\myvehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\views\\vehicle\\myvehicles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\insuranceplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\insuranceplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\models\\insurancemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\models\\insurancemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\insurancemanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7AA367AF-891C-470E-A650-A860B33E31D1}|InsuranceManagementSystem\\InsuranceManagementSystem.csproj|solutionrelative:insurancemanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RenewPolicy.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\RenewPolicy.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Renewal\\RenewPolicy.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\RenewPolicy.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Renewal\\RenewPolicy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T06:31:57.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T09:28:18.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Vehicle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Index.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Vehicle\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T09:10:49.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\Delete.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Renewal\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\Delete.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Renewal\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T09:01:31.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Index.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Policy\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Index.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Policy\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:59:40.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Delete.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Policy\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Delete.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Policy\\Delete.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:59:30.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Edit.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Policy\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Edit.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Policy\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:59:21.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Details.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Policy\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Details.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Policy\\Details.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:59:11.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\InsurancePlan\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Delete.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\InsurancePlan\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:56:36.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Details.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\InsurancePlan\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Details.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\InsurancePlan\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:56:10.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\InsurancePlan\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Edit.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\InsurancePlan\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:55:44.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Vehicles.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Vehicles.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Vehicles.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Vehicles.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Vehicles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:50:47.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T08:46:22.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T08:43:13.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\User\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\ChangePassword.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\User\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T07:51:52.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\Details.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Renewal\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\Details.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Renewal\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T07:45:50.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Claim\\Details.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Claim\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Claim\\Details.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Claim\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T07:44:24.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\Details.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Payment\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\Details.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Payment\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwC0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T07:42:40.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Vehicle\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Vehicle\\Edit.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T06:58:54.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\InsurancePlan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Create.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\InsurancePlan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T06:38:18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\PaymentHistory.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Payment\\PaymentHistory.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\PaymentHistory.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Payment\\PaymentHistory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T06:20:43.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MyClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Claim\\MyClaims.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Claim\\MyClaims.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Claim\\MyClaims.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Claim\\MyClaims.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T06:19:43.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyPolicies.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\MyPolicies.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Policy\\MyPolicies.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\MyPolicies.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Policy\\MyPolicies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T06:07:21.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Index.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\InsurancePlan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\InsurancePlan\\Index.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\InsurancePlan\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:41:07.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\Index.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Renewal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Renewal\\Index.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Renewal\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:40:40.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Claim\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Claim\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Claim\\Create.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Claim\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:40:14.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Receipt.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\Receipt.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Payment\\Receipt.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\Receipt.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Payment\\Receipt.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:39:47.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Payment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Payment\\Create.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Payment\\Create.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAOAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:39:26.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Policy\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Policy\\Create.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Policy\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAKQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:38:58.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Details.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Vehicle\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Details.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Vehicle\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwDMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:37:46.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MyVehicles.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\MyVehicles.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Vehicle\\MyVehicles.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\MyVehicles.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Vehicle\\MyVehicles.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwDoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:37:16.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Vehicle\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Vehicle\\Create.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Vehicle\\Create.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAqwOkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:36:33.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\User\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\EditProfile.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\User\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:33:52.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\User\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\UserProfile.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\User\\UserProfile.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvysAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:33:24.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\User\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\User\\Dashboard.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\User\\Dashboard.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:33:00.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Renewals.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Renewals.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Renewals.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Renewals.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Renewals.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:32:04.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Payments.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Payments.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Payments.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Payments.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Payments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:31:36.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Policies.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Policies.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Policies.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Policies.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Policies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:31:06.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Claims.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Claims.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Claims.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Claims.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Claims.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:30:11.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:29:37.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:29:14.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:27:35.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:27:14.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:26:48.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:25:52.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:25:39.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:23:55.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:23:30.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "InsuranceManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T05:22:46.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Models\\Claim.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Models\\Claim.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:12:11.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "InsuranceModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Models\\InsuranceModel.edmx",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Models\\InsuranceModel.edmx",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Models\\InsuranceModel.edmx [Diagram1]",
+              "RelativeToolTip": "InsuranceManagementSystem\\Models\\InsuranceModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-06-15T05:07:11.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Web.config",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Web.config",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Web.config",
+              "RelativeToolTip": "InsuranceManagementSystem\\Web.config",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-15T05:01:20.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "InsurancePlanController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\InsurancePlanController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\InsurancePlanController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\InsurancePlanController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\InsurancePlanController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAA+wLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:43:36.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenewalController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\RenewalController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\RenewalController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\RenewalController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\RenewalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:43:16.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwIUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:43:03.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAUwNwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:34:03.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\PolicyController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\PolicyController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\PolicyController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\PolicyController.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAcwBUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:29:52.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:27:15.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:27:12.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAuwNoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:21:07.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACABAAAAAAAAAAAAwC8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:14:40.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "InsuranceManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\arulp\\Downloads\\InsuranceManagementSystem 1\\InsuranceManagementSystem\\InsuranceManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "InsuranceManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:05:07.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

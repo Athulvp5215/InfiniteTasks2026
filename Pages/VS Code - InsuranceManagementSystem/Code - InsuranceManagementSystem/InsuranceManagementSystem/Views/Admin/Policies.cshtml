@@ -1,0 +1,30 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Policy>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Policies</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Policy No</th>
+        <th>Premium</th>
+        <th>Status</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.PolicyNumber</td>
+            <td>@item.PremiumAmount</td>
+            <td>@item.PolicyStatus</td>
+            <td>@item.StartDate</td>
+            <td>@item.EndDate</td>
+        </tr>
+    }
+
+</table>

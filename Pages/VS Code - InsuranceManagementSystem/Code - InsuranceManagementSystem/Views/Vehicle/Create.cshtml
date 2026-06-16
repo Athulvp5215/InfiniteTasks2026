@@ -1,0 +1,234 @@
+﻿@model InsuranceManagementSystem.Models.Vehicle
+
+@{
+    ViewBag.Title = "Add Vehicle";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Add Vehicle</h2>
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    <div class="form-group mb-3">
+
+        <label>Vehicle Number</label>
+
+        @Html.TextBoxFor(
+            m => m.VehicleNumber,
+            new
+            {
+                @class = "form-control",
+                id = "VehicleNumber",
+                placeholder = "TN39AB1234",
+                required = "required"
+            })
+
+    </div>
+
+    <div class="form-group mb-3">
+
+        <label>Vehicle Type</label>
+
+        <select id="VehicleType"
+                name="VehicleType"
+                class="form-control"
+                required>
+
+            <option value="">
+                Select Vehicle Type
+            </option>
+
+            <option>Bike</option>
+            <option>Car</option>
+
+        </select>
+
+    </div>
+
+    <div class="form-group mb-3">
+
+        <label>Vehicle Model</label>
+
+        @Html.TextBoxFor(
+            m => m.VehicleModel,
+            new
+            {
+                @class = "form-control",
+                id = "VehicleModel",
+                required = "required"
+            })
+
+    </div>
+
+    <div class="form-group mb-3">
+
+        <label>Manufacturer</label>
+
+        @Html.TextBoxFor(
+            m => m.Manufacturer,
+            new
+            {
+                @class = "form-control",
+                id = "Manufacturer",
+                required = "required"
+            })
+
+    </div>
+
+    <div class="form-group mb-3">
+
+        <label>Manufacture Year</label>
+
+        @Html.TextBoxFor(
+            m => m.ManufactureYear,
+            new
+            {
+                @class = "form-control",
+                id = "ManufactureYear",
+                type = "number",
+                min = "2000",
+                max = "2035",
+                required = "required"
+            })
+
+    </div>
+
+    <div class="form-group mb-3">
+
+        <label>Engine Number</label>
+
+        @Html.TextBoxFor(
+            m => m.EngineNumber,
+            new
+            {
+                @class = "form-control",
+                id = "EngineNumber",
+                required = "required"
+            })
+
+    </div>
+
+    <div class="form-group mb-3">
+
+        <label>Chassis Number</label>
+
+        @Html.TextBoxFor(
+            m => m.ChassisNumber,
+            new
+            {
+                @class = "form-control",
+                id = "ChassisNumber",
+                required = "required"
+            })
+
+    </div>
+
+    <br />
+
+    <button type="submit"
+            class="btn btn-success">
+        Save Vehicle
+    </button>
+}
+
+<script>
+
+document.querySelector("form")
+.addEventListener("submit", function(e)
+{
+    var vehicleNumber =
+        document.getElementById("VehicleNumber").value.trim();
+
+    var vehicleType =
+        document.getElementById("VehicleType").value;
+
+    var vehicleModel =
+        document.getElementById("VehicleModel").value.trim();
+
+    var manufacturer =
+        document.getElementById("Manufacturer").value.trim();
+
+    var year =
+        parseInt(
+            document.getElementById("ManufactureYear").value);
+
+    var engine =
+        document.getElementById("EngineNumber").value.trim();
+
+    var chassis =
+        document.getElementById("ChassisNumber").value.trim();
+
+    var currentYear =
+        new Date().getFullYear();
+
+    var vehiclePattern =
+        /^[A-Z]{2}[0-9]{2}[A-Z]{1,2}[0-9]{4}$/;
+
+    if (!vehiclePattern.test(vehicleNumber))
+    {
+        alert(
+        "Vehicle Number must be like TN39AB1234");
+
+        e.preventDefault();
+        return;
+    }
+
+    if (vehicleType === "")
+    {
+        alert(
+        "Please select Vehicle Type");
+
+        e.preventDefault();
+        return;
+    }
+
+    if (vehicleModel.length < 2)
+    {
+        alert(
+        "Vehicle Model is required");
+
+        e.preventDefault();
+        return;
+    }
+
+    if (manufacturer.length < 2)
+    {
+        alert(
+        "Manufacturer is required");
+
+        e.preventDefault();
+        return;
+    }
+
+    if (year < 2000 || year > currentYear)
+    {
+        alert(
+        "Enter valid Manufacture Year");
+
+        e.preventDefault();
+        return;
+    }
+
+    if (engine.length < 6)
+    {
+        alert(
+        "Engine Number must contain minimum 6 characters");
+
+        e.preventDefault();
+        return;
+    }
+
+    if (chassis.length < 8)
+    {
+        alert(
+        "Chassis Number must contain minimum 8 characters");
+
+        e.preventDefault();
+        return;
+    }
+
+});
+
+</script>

@@ -1,0 +1,51 @@
+﻿@model InsuranceManagementSystem.Models.Renewal
+
+@{
+    ViewBag.Title = "Renewal Details";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Renewal Details</h2>
+
+<hr />
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Renewal ID</th>
+        <td>@Model.RenewalId</td>
+    </tr>
+
+    <tr>
+        <th>Policy Number</th>
+        <td>@Model.Policy.PolicyNumber</td>
+    </tr>
+
+    <tr>
+        <th>Renewal Date</th>
+        <td>@Model.RenewalDate</td>
+    </tr>
+
+    <tr>
+        <th>Previous Expiry</th>
+        <td>@Model.Policy.EndDate</td>
+    </tr>
+
+    <tr>
+        <th>New Expiry Date</th>
+        <td>@Model.NewEndDate</td>
+    </tr>
+
+    <tr>
+        <th>Renewal Amount</th>
+        <td>₹ @Model.RenewalAmount</td>
+    </tr>
+
+</table>
+
+<a href="@Url.Action(
+    "Index",
+    "Renewal")"
+   class="btn btn-secondary">
+    Back
+</a>

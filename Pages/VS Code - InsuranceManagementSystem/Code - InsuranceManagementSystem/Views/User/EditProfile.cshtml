@@ -1,0 +1,54 @@
+﻿@model InsuranceManagementSystem.Models.User
+
+@{
+    ViewBag.Title = "Edit Profile";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Edit Profile</h2>
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.UserId)
+
+    <div class="form-group">
+        <label>Full Name</label>
+        @Html.TextBoxFor(
+            m => m.FullName,
+            new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        @Html.TextBoxFor(
+            m => m.Email,
+            new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Phone Number</label>
+        @Html.TextBoxFor(
+            m => m.PhoneNumber,
+            new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        @Html.TextAreaFor(
+            m => m.Address,
+            new
+            {
+                @class = "form-control",
+                rows = 4
+            })
+    </div>
+
+    <br />
+
+    <button type="submit"
+            class="btn btn-success">
+        Update Profile
+    </button>
+}

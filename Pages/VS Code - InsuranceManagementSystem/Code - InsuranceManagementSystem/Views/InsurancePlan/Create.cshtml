@@ -1,0 +1,151 @@
+﻿@model InsuranceManagementSystem.Models.InsurancePlan
+
+@{
+    ViewBag.Title = "Add Insurance Plan";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Add Insurance Plan</h2>
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+
+        <label>Plan Name</label>
+
+        @Html.TextBoxFor(
+            m => m.PlanName,
+            new
+            {
+                @class = "form-control",
+                id = "PlanName",
+                placeholder = "Basic Plan"
+            })
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Base Premium</label>
+
+        @Html.TextBoxFor(
+            m => m.BasePremium,
+            new
+            {
+                @class = "form-control",
+                id = "BasePremium",
+                type = "number",
+                min = "1",
+                placeholder = "3000"
+            })
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Description</label>
+
+        @Html.TextAreaFor(
+            m => m.Description,
+            new
+            {
+                @class = "form-control",
+                id = "Description",
+                rows = "4",
+                placeholder = "Enter Plan Description"
+            })
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+        Save
+    </button>
+
+    <a href="@Url.Action("Index","InsurancePlan")"
+       class="btn btn-secondary">
+        Back
+    </a>
+}
+
+<script>
+
+document.querySelector("form")
+.addEventListener("submit", function(e)
+{
+    var planName =
+        document.getElementById("PlanName")
+        .value.trim();
+
+    var premium =
+        document.getElementById("BasePremium")
+        .value;
+
+    var description =
+        document.getElementById("Description")
+        .value.trim();
+
+    if(planName === "")
+    {
+        alert(
+            "Plan Name is required");
+
+        e.preventDefault();
+
+        return;
+    }
+
+    if(planName.length < 3)
+    {
+        alert(
+            "Plan Name must contain at least 3 characters");
+
+        e.preventDefault();
+
+        return;
+    }
+
+    if(premium === "")
+    {
+        alert(
+            "Base Premium is required");
+
+        e.preventDefault();
+
+        return;
+    }
+
+    if(parseFloat(premium) <= 0)
+    {
+        alert(
+            "Base Premium must be greater than 0");
+
+        e.preventDefault();
+
+        return;
+    }
+
+    if(description === "")
+    {
+        alert(
+            "Description is required");
+
+        e.preventDefault();
+
+        return;
+    }
+
+    if(description.length < 10)
+    {
+        alert(
+            "Description must contain at least 10 characters");
+
+        e.preventDefault();
+
+        return;
+    }
+});
+
+</script>

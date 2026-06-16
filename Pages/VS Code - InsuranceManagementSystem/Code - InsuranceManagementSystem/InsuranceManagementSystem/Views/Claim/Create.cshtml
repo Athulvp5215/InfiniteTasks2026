@@ -1,0 +1,61 @@
+﻿@model InsuranceManagementSystem.Models.Claim
+
+@{
+    ViewBag.Title = "Create Claim";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Create Claim</h2>
+
+<hr />
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        <label>Policy Number</label>
+        @Html.DropDownList(
+            "PolicyId",
+            null,
+            "Select Policy",
+            new { @class = "form-control" })
+    </div>
+
+    <div class="mb-3">
+        <label>Claim Amount</label>
+        @Html.TextBoxFor(
+            m => m.ClaimAmount,
+            new
+            {
+                @class = "form-control",
+                type = "number"
+            })
+    </div>
+
+    <div class="mb-3">
+        <label>Claim Reason</label>
+        @Html.TextAreaFor(
+            m => m.ClaimReason,
+            new
+            {
+                @class = "form-control",
+                rows = "4"
+            })
+    </div>
+
+    <button type="submit"
+            class="btn btn-primary">
+        Submit Claim
+    </button>
+
+    <a href="@Url.Action("MyClaims","Claim")"
+       class="btn btn-secondary">
+        Back
+    </a>
+}

@@ -1,0 +1,44 @@
+﻿@model InsuranceManagementSystem.Models.InsurancePlan
+
+@{
+    ViewBag.Title = "Delete Plan";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete Insurance Plan</h2>
+
+<div class="alert alert-danger">
+
+    Are you sure you want to delete
+    <strong>@Model.PlanName</strong> ?
+
+</div>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Plan Name</th>
+        <td>@Model.PlanName</td>
+    </tr>
+
+    <tr>
+        <th>Base Premium</th>
+        <td>₹ @Model.BasePremium</td>
+    </tr>
+
+</table>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PlanId)
+
+    <button type="submit"
+            class="btn btn-danger">
+        Delete
+    </button>
+
+    <a href="@Url.Action("Index","InsurancePlan")"
+       class="btn btn-secondary">
+        Cancel
+    </a>
+}

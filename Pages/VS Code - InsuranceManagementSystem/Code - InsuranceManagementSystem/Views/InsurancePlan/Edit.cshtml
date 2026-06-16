@@ -1,0 +1,63 @@
+﻿@model InsuranceManagementSystem.Models.InsurancePlan
+
+@{
+    ViewBag.Title = "Edit Insurance Plan";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit Insurance Plan</h2>
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PlanId)
+
+    <div class="mb-3">
+
+        <label>Plan Name</label>
+
+        @Html.TextBoxFor(
+            m => m.PlanName,
+            new { @class = "form-control" })
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Base Premium</label>
+
+        @Html.TextBoxFor(
+            m => m.BasePremium,
+            new
+            {
+                @class = "form-control",
+                type = "number"
+            })
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Description</label>
+
+        @Html.TextAreaFor(
+            m => m.Description,
+            new
+            {
+                @class = "form-control",
+                rows = "4"
+            })
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-warning">
+        Update
+    </button>
+
+    <a href="@Url.Action("Index","InsurancePlan")"
+       class="btn btn-secondary">
+        Back
+    </a>
+}

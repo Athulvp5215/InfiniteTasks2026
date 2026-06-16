@@ -1,0 +1,62 @@
+﻿@model InsuranceManagementSystem.Models.Vehicle
+
+@{
+    ViewBag.Title = "Edit Vehicle";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Edit Vehicle</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.VehicleId)
+
+    <div class="form-group">
+        <label>Vehicle Number</label>
+        @Html.TextBoxFor(m => m.VehicleNumber,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Vehicle Type</label>
+        @Html.TextBoxFor(m => m.VehicleType,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Vehicle Model</label>
+        @Html.TextBoxFor(m => m.VehicleModel,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Manufacturer</label>
+        @Html.TextBoxFor(m => m.Manufacturer,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Manufacture Year</label>
+        @Html.TextBoxFor(m => m.ManufactureYear,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Engine Number</label>
+        @Html.TextBoxFor(m => m.EngineNumber,
+        new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Chassis Number</label>
+        @Html.TextBoxFor(m => m.ChassisNumber,
+        new { @class = "form-control" })
+    </div>
+
+    <br />
+
+    <button type="submit"
+            class="btn btn-primary">
+        Update Vehicle
+    </button>
+}

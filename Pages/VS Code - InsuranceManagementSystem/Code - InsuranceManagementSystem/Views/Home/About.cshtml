@@ -1,0 +1,123 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.InsurancePlan>
+
+@{
+    ViewBag.Title = "About Us";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<style>
+
+    .about-section {
+        min-height: 100vh;
+        padding: 60px 0;
+        background: linear-gradient( rgba(0,0,0,.6), rgba(0,0,0,.6)), url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .glass-card {
+        padding: 40px;
+        border-radius: 20px;
+        background: rgba(255,255,255,.15);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255,255,255,.3);
+        box-shadow: 0 8px 32px rgba(0,0,0,.3);
+        color: white;
+    }
+
+        .glass-card h1 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .glass-card p {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+    .plan-card {
+        background: rgba(255,255,255,.12);
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: white;
+        transition: .3s;
+    }
+
+        .plan-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,.2);
+        }
+
+    .plan-price {
+        color: #ffc107;
+        font-size: 24px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="about-section">
+
+    <div class="container">
+
+        <div class="glass-card">
+
+            <h1 class="text-center">
+                About Vehicle Insurance Management System
+            </h1>
+
+            <p>
+                Vehicle Insurance Management System is a web-based
+                application developed to simplify vehicle insurance
+                operations. Users can register, add vehicles,
+                purchase insurance policies, make premium payments,
+                submit claims, and renew policies online.
+            </p>
+
+            <p>
+                The system provides a dedicated admin panel for
+                managing insurance plans, users, policies,
+                payments, claims, and renewals.
+            </p>
+
+            <hr class="bg-light" />
+
+            <h2 class="text-center mb-4">
+                Available Insurance Plans
+            </h2>
+
+            <div class="row">
+
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4">
+
+                        <div class="plan-card">
+
+                            <h4>
+                                @item.PlanName
+                            </h4>
+
+                            <div class="plan-price">
+                                ₹ @item.BasePremium
+                            </div>
+
+                            <hr />
+
+                            <p>
+                                @item.Description
+                            </p>
+
+                        </div>
+
+                    </div>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

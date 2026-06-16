@@ -1,0 +1,52 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Renewal>
+
+@{
+    ViewBag.Title = "Renewals";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Policy Renewals</h2>
+
+<hr />
+
+<table class="table table-bordered table-striped">
+
+    <tr>
+        <th>Renewal ID</th>
+        <th>Policy Number</th>
+        <th>Renewal Date</th>
+        <th>New End Date</th>
+        <th>Renewal Amount</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.RenewalId</td>
+
+            <td>@item.Policy.PolicyNumber</td>
+
+            <td>@item.RenewalDate</td>
+
+            <td>@item.NewEndDate</td>
+
+            <td>₹ @item.RenewalAmount</td>
+
+            <td>
+
+                <a href="@Url.Action(
+                    "Details",
+                    "Renewal",
+                    new { id = item.RenewalId })"
+                   class="btn btn-info btn-sm">
+                    Details
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

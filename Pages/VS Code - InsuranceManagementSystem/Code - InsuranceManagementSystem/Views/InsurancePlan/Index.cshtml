@@ -1,0 +1,64 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.InsurancePlan>
+
+@{
+    ViewBag.Title = "Insurance Plans";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Insurance Plans</h2>
+
+<p>
+    <a href="@Url.Action("Create","InsurancePlan")"
+       class="btn btn-success">
+        Add New Plan
+    </a>
+</p>
+
+<table class="table table-bordered table-striped">
+
+    <tr>
+        <th>Plan ID</th>
+        <th>Plan Name</th>
+        <th>Base Premium</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.PlanId</td>
+            <td>@item.PlanName</td>
+            <td>₹ @item.BasePremium</td>
+            <td>@item.Description</td>
+
+            <td>
+
+                <a href="@Url.Action("Details",
+                    "InsurancePlan",
+                    new { id = item.PlanId })"
+                   class="btn btn-info btn-sm">
+                    Details
+                </a>
+
+                <a href="@Url.Action("Edit",
+                    "InsurancePlan",
+                    new { id = item.PlanId })"
+                   class="btn btn-warning btn-sm">
+                    Edit
+                </a>
+
+                <a href="@Url.Action("Delete",
+                    "InsurancePlan",
+                    new { id = item.PlanId })"
+                   class="btn btn-danger btn-sm">
+                    Delete
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

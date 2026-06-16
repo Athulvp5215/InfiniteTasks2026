@@ -1,0 +1,37 @@
+﻿@model InsuranceManagementSystem.Models.InsurancePlan
+
+@{
+    ViewBag.Title = "Plan Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Plan Details</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Plan ID</th>
+        <td>@Model.PlanId</td>
+    </tr>
+
+    <tr>
+        <th>Plan Name</th>
+        <td>@Model.PlanName</td>
+    </tr>
+
+    <tr>
+        <th>Base Premium</th>
+        <td>₹ @Model.BasePremium</td>
+    </tr>
+
+    <tr>
+        <th>Description</th>
+        <td>@Model.Description</td>
+    </tr>
+
+</table>
+
+<a href="@Url.Action("Index","InsurancePlan")"
+   class="btn btn-secondary">
+    Back
+</a>

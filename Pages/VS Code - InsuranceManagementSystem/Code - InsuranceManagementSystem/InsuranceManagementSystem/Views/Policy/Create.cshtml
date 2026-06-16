@@ -1,0 +1,165 @@
+﻿@model InsuranceManagementSystem.Models.Policy
+
+@{
+    ViewBag.Title = "Create Policy";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="card shadow">
+
+    <div class="card-header bg-primary text-white">
+
+        <h3>
+            Create Insurance Policy
+        </h3>
+
+    </div>
+
+    <div class="card-body">
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">
+                @ViewBag.Error
+            </div>
+        }
+
+        @using (Html.BeginForm())
+        {
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Insurance Plan
+                </label>
+
+                @Html.DropDownList(
+                    "PlanId",
+                    null,
+                    "Select Plan",
+                    new
+                    {
+                        @class = "form-control",
+                        id = "PlanId"
+                    })
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Vehicle
+                </label>
+
+                @Html.DropDownList(
+                    "VehicleId",
+                    null,
+                    "Select Vehicle",
+                    new
+                    {
+                        @class = "form-control",
+                        id = "VehicleId"
+                    })
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Policy Type
+                </label>
+
+                <select id="PolicyType"
+                        name="PolicyType"
+                        class="form-control">
+
+                    <option value="">
+                        Select Policy Type
+                    </option>
+
+                    <option value="Third Party Insurance">
+                        Third Party Insurance
+                    </option>
+
+                    <option value="Comprehensive Insurance">
+                        Comprehensive Insurance
+                    </option>
+
+                    <option value="Own Damage Insurance">
+                        Own Damage Insurance
+                    </option>
+
+                    <option value="Zero Depreciation Insurance">
+                        Zero Depreciation Insurance
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="mt-4">
+
+                <button type="submit"
+                        class="btn btn-success">
+
+                    Create Policy
+
+                </button>
+
+                <a href="@Url.Action("MyPolicies","Policy")"
+                   class="btn btn-secondary">
+
+                    Back
+
+                </a>
+
+            </div>
+
+        }
+
+    </div>
+
+</div>
+
+<script>
+
+    document.querySelector("form")
+        .addEventListener("submit", function (e) {
+            var planId =
+                document.getElementById("PlanId").value;
+
+            var vehicleId =
+                document.getElementById("VehicleId").value;
+
+            var policyType =
+                document.getElementById("PolicyType").value;
+
+            if (planId === "") {
+                alert(
+                    "Please Select Insurance Plan");
+
+                e.preventDefault();
+
+                return;
+            }
+
+            if (vehicleId === "") {
+                alert(
+                    "Please Select Vehicle");
+
+                e.preventDefault();
+
+                return;
+            }
+
+            if (policyType === "") {
+                alert(
+                    "Please Select Policy Type");
+
+                e.preventDefault();
+
+                return;
+            }
+        });
+
+</script>

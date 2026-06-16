@@ -1,0 +1,49 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Claim>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Claims</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Claim Id</th>
+        <th>Amount</th>
+        <th>Reason</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.ClaimId</td>
+            <td>@item.ClaimAmount</td>
+            <td>@item.ClaimReason</td>
+            <td>@item.ClaimStatus</td>
+
+            <td>
+
+                <a href="@Url.Action("ApproveClaim",
+                "Admin",
+                new { id=item.ClaimId })"
+                   class="btn btn-success">
+                    Approve
+                </a>
+
+                <a href="@Url.Action("RejectClaim",
+                "Admin",
+                new { id=item.ClaimId })"
+                   class="btn btn-danger">
+                    Reject
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

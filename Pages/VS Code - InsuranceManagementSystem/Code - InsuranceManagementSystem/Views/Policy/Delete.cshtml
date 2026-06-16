@@ -1,0 +1,41 @@
+﻿@model InsuranceManagementSystem.Models.Policy
+
+@{
+    ViewBag.Title = "Delete Policy";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Delete Policy</h2>
+
+<div class="alert alert-danger">
+    Are you sure you want to delete this policy?
+</div>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Policy Number</th>
+        <td>@Model.PolicyNumber</td>
+    </tr>
+
+    <tr>
+        <th>Premium Amount</th>
+        <td>₹ @Model.PremiumAmount</td>
+    </tr>
+
+</table>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PolicyId)
+
+    <button type="submit"
+            class="btn btn-danger">
+        Delete
+    </button>
+
+    <a href="@Url.Action("MyPolicies","Policy")"
+       class="btn btn-secondary">
+        Cancel
+    </a>
+}

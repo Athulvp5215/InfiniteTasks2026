@@ -1,0 +1,75 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Policy>
+
+@{
+    ViewBag.Title = "My Policies";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>My Policies</h2>
+
+<hr />
+
+<p>
+    <a href="@Url.Action("Create","Policy")"
+       class="btn btn-success">
+        Purchase New Policy
+    </a>
+</p>
+
+<table class="table table-bordered table-striped">
+
+    <tr>
+        <th>Policy Number</th>
+        <th>Plan</th>
+        <th>Premium</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.PolicyNumber</td>
+
+            <td>@item.InsurancePlan.PlanName</td>
+
+            <td>₹ @item.PremiumAmount</td>
+
+            <td>@item.PolicyStatus</td>
+
+            <td>
+
+                <a href="@Url.Action("Details","Policy",
+                new { id = item.PolicyId })"
+                   class="btn btn-info btn-sm">
+                    Details
+                </a>
+
+                <a href="@Url.Action("Edit","Policy",
+                new { id = item.PolicyId })"
+                   class="btn btn-warning btn-sm">
+                    Edit
+                </a>
+
+                <a href="@Url.Action("Create","Payment",
+                new {
+                    policyId = item.PolicyId,
+                    isRenewal = true
+                })"
+                   class="btn btn-success btn-sm">
+                    Renew Policy
+                </a>
+
+                <a href="@Url.Action("Create","Claim",
+                new { policyId = item.PolicyId })"
+                   class="btn btn-danger btn-sm">
+                    Claim
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

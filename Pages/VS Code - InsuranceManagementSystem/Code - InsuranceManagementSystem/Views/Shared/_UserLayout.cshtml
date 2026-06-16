@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>@ViewBag.Title - User Panel</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          rel="stylesheet" />
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #eef2f7;
+            font-family: 'Segoe UI',sans-serif;
+        }
+
+        /* Sidebar */
+
+        .sidebar {
+            width: 270px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: #1e293b;
+            overflow-y: auto;
+            box-shadow: 4px 0 15px rgba(0,0,0,.15);
+        }
+
+        .sidebar-header {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            border-bottom: 1px solid #334155;
+        }
+
+            .sidebar-header h2 {
+                margin: 0;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+        .user-profile {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            border-bottom: 1px solid #334155;
+        }
+
+            .user-profile img {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                border: 3px solid white;
+            }
+
+            .user-profile h5 {
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .sidebar ul li {
+                border-bottom: 1px solid rgba(255,255,255,.05);
+            }
+
+                .sidebar ul li a {
+                    display: block;
+                    color: white;
+                    text-decoration: none;
+                    padding: 16px 25px;
+                    transition: .3s;
+                    font-size: 16px;
+                }
+
+                    .sidebar ul li a:hover {
+                        background: #2563eb;
+                        padding-left: 35px;
+                    }
+
+                    .sidebar ul li a i {
+                        width: 25px;
+                    }
+
+        /* Main Content */
+
+        .main-content {
+            margin-left: 270px;
+            padding: 25px;
+        }
+
+        .topbar {
+            background: white;
+            border-left: 5px solid #2563eb;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.1);
+        }
+
+            .topbar h3 {
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+        .content-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.1);
+            min-height: 600px;
+            transition: .3s;
+        }
+
+            .content-card:hover {
+                box-shadow: 0 5px 20px rgba(0,0,0,.15);
+            }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+
+        /* Mobile Responsive */
+
+        @@media (max-width:768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+                padding: 15px;
+            }
+
+            .user-profile img {
+                width: 65px;
+                height: 65px;
+            }
+
+            .sidebar-header h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <div class="sidebar-header">
+            <h2>Insurance System</h2>
+        </div>
+
+        <div class="user-profile">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+
+            <h5>@Session["UserName"]</h5>
+
+            <small>User Panel</small>
+
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="@Url.Action("Dashboard","User")">
+                    <i class="fa fa-home"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("UserProfile","User")">
+                    <i class="fa fa-user"></i>
+                    My Profile
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("MyVehicles","Vehicle")">
+                    <i class="fa fa-car"></i>
+                    My Vehicles
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("MyPolicies","Policy")">
+                    <i class="fa fa-file-contract"></i>
+                    My Policies
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("MyClaims","Claim")">
+                    <i class="fa fa-triangle-exclamation"></i>
+                    My Claims
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("PaymentHistory","Payment")">
+                    <i class="fa fa-credit-card"></i>
+                    Payments
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("Index","Renewal")">
+                    <i class="fa fa-rotate-right"></i>
+                    Renewals
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("ChangePassword","User")">
+                    <i class="fa fa-key"></i>
+                    Change Password
+                </a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("Logout","Account")">
+                    <i class="fa fa-sign-out-alt"></i>
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="main-content">
+
+        <div class="topbar">
+
+            <h3>Vehicle Insurance Management System</h3>
+
+            <p>Welcome, @Session["UserName"]</p>
+
+        </div>
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["Message"]
+            </div>
+        }
+
+        <div class="content-card">
+
+            @RenderBody()
+
+        </div>
+
+        <div class="footer">
+
+            <hr />
+
+            <p>
+                © @DateTime.Now.Year Vehicle Insurance Management System
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Vehicle>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Vehicles</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Vehicle No</th>
+        <th>Type</th>
+        <th>Model</th>
+        <th>Manufacturer</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.VehicleNumber</td>
+            <td>@item.VehicleType</td>
+            <td>@item.VehicleModel</td>
+            <td>@item.Manufacturer</td>
+
+            <td>
+                <a href="@Url.Action("DeleteVehicle","Admin",
+                new { id = item.VehicleId })"
+                   class="btn btn-danger">
+                    Delete
+                </a>
+            </td>
+
+        </tr>
+    }
+
+</table>

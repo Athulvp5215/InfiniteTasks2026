@@ -1,0 +1,66 @@
+﻿@model InsuranceManagementSystem.Models.Renewal
+
+@{
+    ViewBag.Title = "Renew Policy";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Renew Policy</h2>
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PolicyId)
+
+    <div class="form-group">
+        <label>Renewal Date</label>
+        @Html.TextBoxFor(
+            m => m.RenewalDate,
+            "{0:yyyy-MM-dd}",
+            new
+            {
+                @class = "form-control",
+                @readonly = "readonly"
+            })
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label>New End Date</label>
+        @Html.TextBoxFor(
+            m => m.NewEndDate,
+            "{0:yyyy-MM-dd}",
+            new
+            {
+                @class = "form-control",
+                type = "date"
+            })
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <label>Renewal Amount</label>
+        @Html.TextBoxFor(
+            m => m.RenewalAmount,
+            new
+            {
+                @class = "form-control",
+                @readonly = "readonly"
+            })
+    </div>
+
+    <br />
+
+    <button type="submit"
+            class="btn btn-success">
+        Renew Policy
+    </button>
+
+    <a href="@Url.Action("MyPolicies","Policy")"
+       class="btn btn-secondary">
+        Cancel
+    </a>
+}

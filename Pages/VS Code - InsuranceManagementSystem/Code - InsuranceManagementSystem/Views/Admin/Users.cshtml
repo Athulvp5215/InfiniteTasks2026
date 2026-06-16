@@ -1,0 +1,30 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.User>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Users</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>User Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Status</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserId</td>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.Status</td>
+        </tr>
+    }
+
+</table>

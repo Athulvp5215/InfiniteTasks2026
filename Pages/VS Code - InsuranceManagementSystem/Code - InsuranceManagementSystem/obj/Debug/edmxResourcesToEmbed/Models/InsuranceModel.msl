@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InsuranceManagementDBModelStoreContainer" CdmEntityContainer="InsuranceManagementDBEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+          <ScalarProperty Name="AdminName" ColumnName="AdminName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Claims">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.Claim">
+        <MappingFragment StoreEntitySet="Claims">
+          <ScalarProperty Name="ClaimId" ColumnName="ClaimId" />
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+          <ScalarProperty Name="ClaimAmount" ColumnName="ClaimAmount" />
+          <ScalarProperty Name="ClaimReason" ColumnName="ClaimReason" />
+          <ScalarProperty Name="ClaimStatus" ColumnName="ClaimStatus" />
+          <ScalarProperty Name="ClaimDate" ColumnName="ClaimDate" />
+          <ScalarProperty Name="ApprovedAmount" ColumnName="ApprovedAmount" />
+          <ScalarProperty Name="ApprovedBy" ColumnName="ApprovedBy" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InsurancePlans">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.InsurancePlan">
+        <MappingFragment StoreEntitySet="InsurancePlans">
+          <ScalarProperty Name="PlanId" ColumnName="PlanId" />
+          <ScalarProperty Name="PlanName" ColumnName="PlanName" />
+          <ScalarProperty Name="BasePremium" ColumnName="BasePremium" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="PaymentId" ColumnName="PaymentId" />
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Policies">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.Policy">
+        <MappingFragment StoreEntitySet="Policies">
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+          <ScalarProperty Name="PolicyNumber" ColumnName="PolicyNumber" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PlanId" ColumnName="PlanId" />
+          <ScalarProperty Name="VehicleId" ColumnName="VehicleId" />
+          <ScalarProperty Name="PremiumAmount" ColumnName="PremiumAmount" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="PolicyStatus" ColumnName="PolicyStatus" />
+          <ScalarProperty Name="PolicyType" ColumnName="PolicyType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Renewals">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.Renewal">
+        <MappingFragment StoreEntitySet="Renewals">
+          <ScalarProperty Name="RenewalId" ColumnName="RenewalId" />
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+          <ScalarProperty Name="RenewalDate" ColumnName="RenewalDate" />
+          <ScalarProperty Name="NewEndDate" ColumnName="NewEndDate" />
+          <ScalarProperty Name="RenewalAmount" ColumnName="RenewalAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vehicles">
+      <EntityTypeMapping TypeName="InsuranceManagementDBModel.Vehicle">
+        <MappingFragment StoreEntitySet="Vehicles">
+          <ScalarProperty Name="VehicleId" ColumnName="VehicleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="VehicleNumber" ColumnName="VehicleNumber" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="VehicleModel" ColumnName="VehicleModel" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="ManufactureYear" ColumnName="ManufactureYear" />
+          <ScalarProperty Name="EngineNumber" ColumnName="EngineNumber" />
+          <ScalarProperty Name="ChassisNumber" ColumnName="ChassisNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

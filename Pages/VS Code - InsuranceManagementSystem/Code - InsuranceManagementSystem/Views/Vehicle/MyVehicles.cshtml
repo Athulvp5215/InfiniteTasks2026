@@ -1,0 +1,59 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Vehicle>
+
+@{
+    ViewBag.Title = "My Vehicles";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>My Vehicles</h2>
+
+<p>
+    <a href="@Url.Action("Create","Vehicle")"
+       class="btn btn-success">
+        Add Vehicle
+    </a>
+</p>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Vehicle Number</th>
+        <th>Type</th>
+        <th>Model</th>
+        <th>Manufacturer</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.VehicleNumber</td>
+            <td>@item.VehicleType</td>
+            <td>@item.VehicleModel</td>
+            <td>@item.Manufacturer</td>
+
+            <td>
+
+                <a href="@Url.Action(
+                    "Details",
+                    "Vehicle",
+                    new { id = item.VehicleId })"
+                   class="btn btn-info btn-sm">
+                    Details
+                </a>
+
+                <a href="@Url.Action(
+                    "Edit",
+                    "Vehicle",
+                    new { id = item.VehicleId })"
+                   class="btn btn-warning btn-sm">
+                    Edit
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

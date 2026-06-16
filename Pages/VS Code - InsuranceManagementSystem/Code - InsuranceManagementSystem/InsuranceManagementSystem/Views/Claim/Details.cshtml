@@ -1,0 +1,56 @@
+﻿@model InsuranceManagementSystem.Models.Claim
+
+@{
+    ViewBag.Title = "Claim Details";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Claim Details</h2>
+
+<hr />
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Claim ID</th>
+        <td>@Model.ClaimId</td>
+    </tr>
+
+    <tr>
+        <th>Policy Number</th>
+        <td>@Model.Policy.PolicyNumber</td>
+    </tr>
+
+    <tr>
+        <th>Claim Amount</th>
+        <td>₹ @Model.ClaimAmount</td>
+    </tr>
+
+    <tr>
+        <th>Claim Reason</th>
+        <td>@Model.ClaimReason</td>
+    </tr>
+
+    <tr>
+        <th>Claim Date</th>
+        <td>@Model.ClaimDate</td>
+    </tr>
+
+    <tr>
+        <th>Status</th>
+        <td>@Model.ClaimStatus</td>
+    </tr>
+
+    <tr>
+        <th>Approved Amount</th>
+        <td>₹ @Model.ApprovedAmount</td>
+    </tr>
+
+</table>
+
+<a href="@Url.Action(
+    "MyClaims",
+    "Claim")"
+   class="btn btn-secondary">
+    Back
+</a>

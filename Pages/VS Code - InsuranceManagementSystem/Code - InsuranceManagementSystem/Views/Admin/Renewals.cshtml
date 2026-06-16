@@ -1,0 +1,30 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Renewal>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Renewals</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Renewal Id</th>
+        <th>Policy Id</th>
+        <th>Renewal Date</th>
+        <th>New End Date</th>
+        <th>Amount</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RenewalId</td>
+            <td>@item.PolicyId</td>
+            <td>@item.RenewalDate</td>
+            <td>@item.NewEndDate</td>
+            <td>@item.RenewalAmount</td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,52 @@
+﻿@model InsuranceManagementSystem.Models.Vehicle
+
+@{
+    ViewBag.Title = "Vehicle Details";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Vehicle Details</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Vehicle Number</th>
+        <td>@Model.VehicleNumber</td>
+    </tr>
+
+    <tr>
+        <th>Vehicle Type</th>
+        <td>@Model.VehicleType</td>
+    </tr>
+
+    <tr>
+        <th>Vehicle Model</th>
+        <td>@Model.VehicleModel</td>
+    </tr>
+
+    <tr>
+        <th>Manufacturer</th>
+        <td>@Model.Manufacturer</td>
+    </tr>
+
+    <tr>
+        <th>Manufacture Year</th>
+        <td>@Model.ManufactureYear</td>
+    </tr>
+
+    <tr>
+        <th>Engine Number</th>
+        <td>@Model.EngineNumber</td>
+    </tr>
+
+    <tr>
+        <th>Chassis Number</th>
+        <td>@Model.ChassisNumber</td>
+    </tr>
+
+</table>
+
+<a href="@Url.Action("MyVehicles","Vehicle")"
+   class="btn btn-secondary">
+    Back
+</a>

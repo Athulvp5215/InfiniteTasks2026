@@ -1,0 +1,33 @@
+﻿@model IEnumerable<InsuranceManagementSystem.Models.Vehicle>
+
+@{
+    ViewBag.Title = "Vehicles";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>All Vehicles</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>ID</th>
+        <th>Vehicle Number</th>
+        <th>Type</th>
+        <th>Model</th>
+        <th>Owner</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.VehicleId</td>
+            <td>@item.VehicleNumber</td>
+            <td>@item.VehicleType</td>
+            <td>@item.VehicleModel</td>
+            <td>@item.User.FullName</td>
+
+        </tr>
+    }
+
+</table>

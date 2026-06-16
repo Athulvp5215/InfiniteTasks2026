@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InsuranceManagementDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Claim">
+    <Key>
+      <PropertyRef Name="ClaimId" />
+    </Key>
+    <Property Name="ClaimId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyId" Type="Int32" Nullable="false" />
+    <Property Name="ClaimAmount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ClaimReason" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimDate" Type="DateTime" Precision="3" />
+    <Property Name="ApprovedAmount" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="ApprovedBy" Type="Int32" />
+    <Property Name="Remarks" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Policy" Relationship="Self.FK__Claims__PolicyId__5165187F" FromRole="Claims" ToRole="Policies" />
+  </EntityType>
+  <EntityType Name="InsurancePlan">
+    <Key>
+      <PropertyRef Name="PlanId" />
+    </Key>
+    <Property Name="PlanId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PlanName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BasePremium" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__PlanId__46E78A0C" FromRole="InsurancePlans" ToRole="Policies" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyId" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="PaymentStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Policy" Relationship="Self.FK__Payments__Policy__4CA06362" FromRole="Payments" ToRole="Policies" />
+  </EntityType>
+  <EntityType Name="Policy">
+    <Key>
+      <PropertyRef Name="PolicyId" />
+    </Key>
+    <Property Name="PolicyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="PlanId" Type="Int32" Nullable="false" />
+    <Property Name="VehicleId" Type="Int32" />
+    <Property Name="PremiumAmount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Precision="0" />
+    <Property Name="PolicyStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="PolicyType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Claims" Relationship="Self.FK__Claims__PolicyId__5165187F" FromRole="Policies" ToRole="Claims" />
+    <NavigationProperty Name="InsurancePlan" Relationship="Self.FK__Policies__PlanId__46E78A0C" FromRole="Policies" ToRole="InsurancePlans" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK__Payments__Policy__4CA06362" FromRole="Policies" ToRole="Payments" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Policies__UserId__45F365D3" FromRole="Policies" ToRole="Users" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK__Policies__Vehicl__47DBAE45" FromRole="Policies" ToRole="Vehicles" />
+    <NavigationProperty Name="Renewals" Relationship="Self.FK__Renewals__Policy__5535A963" FromRole="Policies" ToRole="Renewals" />
+  </EntityType>
+  <EntityType Name="Renewal">
+    <Key>
+      <PropertyRef Name="RenewalId" />
+    </Key>
+    <Property Name="RenewalId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyId" Type="Int32" Nullable="false" />
+    <Property Name="RenewalDate" Type="DateTime" Precision="3" />
+    <Property Name="NewEndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RenewalAmount" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Policy" Relationship="Self.FK__Renewals__Policy__5535A963" FromRole="Renewals" ToRole="Policies" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__UserId__45F365D3" FromRole="Users" ToRole="Policies" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK__Vehicles__UserId__412EB0B6" FromRole="Users" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="VehicleId" />
+    </Key>
+    <Property Name="VehicleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="VehicleNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VehicleModel" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Manufacturer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ManufactureYear" Type="Int32" />
+    <Property Name="EngineNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ChassisNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Policies" Relationship="Self.FK__Policies__Vehicl__47DBAE45" FromRole="Vehicles" ToRole="Policies" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Vehicles__UserId__412EB0B6" FromRole="Vehicles" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK__Claims__PolicyId__5165187F">
+    <End Role="Policies" Type="Self.Policy" Multiplicity="1" />
+    <End Role="Claims" Type="Self.Claim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Policies">
+        <PropertyRef Name="PolicyId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="PolicyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Policies__PlanId__46E78A0C">
+    <End Role="InsurancePlans" Type="Self.InsurancePlan" Multiplicity="1" />
+    <End Role="Policies" Type="Self.Policy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InsurancePlans">
+        <PropertyRef Name="PlanId" />
+      </Principal>
+      <Dependent Role="Policies">
+        <PropertyRef Name="PlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payments__Policy__4CA06362">
+    <End Role="Policies" Type="Self.Policy" Multiplicity="1" />
+    <End Role="Payments" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Policies">
+        <PropertyRef Name="PolicyId" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="PolicyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Policies__UserId__45F365D3">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Policies" Type="Self.Policy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Policies">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Policies__Vehicl__47DBAE45">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="0..1" />
+    <End Role="Policies" Type="Self.Policy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="Policies">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Renewals__Policy__5535A963">
+    <End Role="Policies" Type="Self.Policy" Multiplicity="1" />
+    <End Role="Renewals" Type="Self.Renewal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Policies">
+        <PropertyRef Name="PolicyId" />
+      </Principal>
+      <Dependent Role="Renewals">
+        <PropertyRef Name="PolicyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vehicles__UserId__412EB0B6">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="InsuranceManagementDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <EntitySet Name="Claims" EntityType="Self.Claim" />
+    <EntitySet Name="InsurancePlans" EntityType="Self.InsurancePlan" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Policies" EntityType="Self.Policy" />
+    <EntitySet Name="Renewals" EntityType="Self.Renewal" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <AssociationSet Name="FK__Claims__PolicyId__5165187F" Association="Self.FK__Claims__PolicyId__5165187F">
+      <End Role="Policies" EntitySet="Policies" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Policies__PlanId__46E78A0C" Association="Self.FK__Policies__PlanId__46E78A0C">
+      <End Role="InsurancePlans" EntitySet="InsurancePlans" />
+      <End Role="Policies" EntitySet="Policies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payments__Policy__4CA06362" Association="Self.FK__Payments__Policy__4CA06362">
+      <End Role="Policies" EntitySet="Policies" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Policies__UserId__45F365D3" Association="Self.FK__Policies__UserId__45F365D3">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Policies" EntitySet="Policies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Policies__Vehicl__47DBAE45" Association="Self.FK__Policies__Vehicl__47DBAE45">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="Policies" EntitySet="Policies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Renewals__Policy__5535A963" Association="Self.FK__Renewals__Policy__5535A963">
+      <End Role="Policies" EntitySet="Policies" />
+      <End Role="Renewals" EntitySet="Renewals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vehicles__UserId__412EB0B6" Association="Self.FK__Vehicles__UserId__412EB0B6">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

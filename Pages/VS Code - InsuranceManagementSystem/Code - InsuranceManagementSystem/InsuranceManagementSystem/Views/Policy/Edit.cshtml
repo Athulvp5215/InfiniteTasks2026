@@ -1,0 +1,46 @@
+﻿@model InsuranceManagementSystem.Models.Policy
+
+@{
+    ViewBag.Title = "Edit Policy";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Edit Policy</h2>
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.PolicyId)
+
+    <div class="mb-3">
+
+        <label>Policy Type</label>
+
+        @Html.TextBoxFor(
+            m => m.PolicyType,
+            new { @class = "form-control" })
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Insurance Plan</label>
+
+        @Html.DropDownList(
+            "PlanId",
+            null,
+            new { @class = "form-control" })
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-warning">
+        Update
+    </button>
+
+    <a href="@Url.Action("MyPolicies","Policy")"
+       class="btn btn-secondary">
+        Back
+    </a>
+}
